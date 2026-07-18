@@ -24,7 +24,6 @@ The analysis uses a staggered Difference-in-Differences (DID) design, supplement
 
 ## File Structure
 
-`
 anticorruption/
 ├── Environment_lowcarbon.do         # Alternative low-carbon environment spec (final version)
 ├── Province_fiscal.do               # Provincial fiscal indicators: DID on budget metrics
@@ -50,8 +49,10 @@ oot macro in each .do file to match your local directory structure.
    -  1_ GDP over report.do  (1-207 line)   — Data cleanning basic regression  non parametric construction of GDP  over report 
    -  2  Run  robustness ML for GDP over report.R use ML for GDP over report then it as “anti corruption_with_ml.dta”
    -  3  Back to  GDP over report.do  from 207 on forward. ins13.dta contain infromation of provinical inspection(To county level)
+   
 --For Environment_lowcarbon.do 
   - 1  ins12.dta provincial inspection team at (city level. if county inspected then city also inspected)
+    
 --For compliance
  -  1. Use orignal government report data and use cleanfinal.m to construct policy similarity measure JS Cosine
  -  2. For.dta and D.dta are replicate GDP(base on night light) and econ and social information about cities
