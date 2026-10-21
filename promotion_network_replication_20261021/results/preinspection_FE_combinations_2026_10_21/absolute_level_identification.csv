@@ -1,0 +1,8 @@
+﻿model_id,term,b,se,p,lo,hi,N,G,df,K,df_a,df_nested,fe,absorb,label,kind,identified,reason
+1,C0,7.107338441138395,3.5628170604518856,0.057532951615800174,-0.2459545652720374,14.460631447548828,1456.0,25.0,24.0,11.0,0.0,100.0,PXY,py,Province x year,level,True,
+2,C0,0.9771117995037931,6.987592988811814,0.8899570682270349,-13.444571319346975,15.398794918354563,1456.0,25.0,24.0,15.0,4.0,262.0,CITY_YEAR,city_code year,City + year,level,True,
+3,C0,2.4878307175988215,6.843047098395739,0.7193725138413447,-11.635524345932968,16.61118578113061,1456.0,25.0,24.0,11.0,0.0,362.0,CITY_PXY,city_code py,City + province x year,level,True,
+4,C0,,,,,,1456.0,25.0,,,,,I_YEAR,person_id year,Individual + year,change,False,Fixed C0 absorbed by individual FE
+5,C0,,,,,,1456.0,25.0,,,,,I_PXY,person_id py,Individual + province x year,change,False,Fixed C0 absorbed by individual FE
+6,C0,,,,,,1456.0,25.0,,,,,I_CITY_YEAR,person_id city_code year,Individual + city + year,change,False,Fixed C0 absorbed by individual FE
+7,C0,,,,,,1456.0,25.0,,,,,I_CITY_PXY,person_id city_code py,Individual + city + province x year,change,False,Fixed C0 absorbed by individual FE

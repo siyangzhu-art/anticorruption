@@ -1,0 +1,16 @@
+{
+  "checks": 96,
+  "failed_checks": 0,
+  "personal_edges_pre2012": 71048,
+  "city_principal_edges_pre2012": 25233,
+  "temporal_source_files_unchanged": true,
+  "survey_and_psychometric_tests": "Not applicable: archival relational data, not a survey scale",
+  "source_hashes": {
+    "person_edges_pre2012.csv.gz": "371033301852be3a13a6e9ba6a0d963b5f8e1eb7fc475610fedf7384263cde87",
+    "city_pairs_same_province_pre2012.csv.gz": "5c6207b6ddb52dcdcc9240c38e637a0b130563cbf7e41ea2ccf43b624852cd7e",
+    "annual_positive_links_national_pre2012.csv.gz": "f8aa5605fb496336840db78df9f33b1d5fbe372be68109820c7a3b35de568e5a",
+    "city_officeholder_year_start.csv": "2a1a9fdc00a84ee1da053a1acd571621b83011aa00d8dd179d647829299fb3c5",
+    "active_official_year_recorded_degrees.csv.gz": "8d1e267268ba4570db45c2dae0342110d88e4a479ec88a539ecaadfea7f27b11",
+    "官员个人网络_交互查看.html": "2d529af86ce0d07c38dd6cf4559daa9c92a98b8adff312727d6746ee8529a57c"
+  }
+}

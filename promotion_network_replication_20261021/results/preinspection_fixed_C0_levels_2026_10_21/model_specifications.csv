@@ -1,0 +1,6 @@
+﻿model_id,label,controls,kind
+1,Province x year FE only,,pooled
+2,Personal controls,age age2 tenure tenure2 i.base_rank i.role_secretary,pooled
+3,Personal + city economics (main),age age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag,pooled
+4,Exact C08 columns (age squared only),age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag,pooled
+5,Annual levels: full controls,age age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag,annual

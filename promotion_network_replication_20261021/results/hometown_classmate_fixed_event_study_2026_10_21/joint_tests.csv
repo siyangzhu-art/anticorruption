@@ -1,0 +1,9 @@
+﻿model_id,method,test,F,df_num,p,relation,fe,absorb,N
+1,TWFE_fixed,pretrend,12.318543677771848,3.0,4.4610562e-05,hometown_prefecture,I_YEAR,person_id year,2731
+1,Sun_Abraham,pretrend,4.823256878247264,3.0,0.009110473,hometown_prefecture,I_YEAR,person_id year,2731
+2,TWFE_fixed,pretrend,32.191561355065325,3.0,1.4080318e-08,hometown_prefecture,I_PXY,person_id py,2731
+2,Sun_Abraham,pretrend,10.233282506426436,3.0,0.00015814844,hometown_prefecture,I_PXY,person_id py,2731
+3,TWFE_fixed,pretrend,5.96966537008981,3.0,0.0062456923,classmate_6m,I_YEAR,person_id year,1155
+3,Sun_Abraham,pretrend,7.671949811983841,3.0,0.002127717,classmate_6m,I_YEAR,person_id year,1155
+4,TWFE_fixed,pretrend,3.467581410511128,3.0,0.041158807,classmate_6m,I_PXY,person_id py,1155
+4,Sun_Abraham,pretrend,4.6009010307159075,3.0,0.016637653,classmate_6m,I_PXY,person_id py,1155

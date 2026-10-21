@@ -1,0 +1,13 @@
+﻿horizon_months,phase,leader_role,leaders,mean_connections,median_connections,known_pairs,unknown_pairs
+12,After,G,3,3.0,1.0,57,4
+12,After,S,4,1.5,1.5,80,7
+12,Before,G,2,1.0,1.0,54,0
+12,Before,S,6,1.0,1.0,146,4
+24,After,G,7,2.2857142857142856,1.0,152,10
+24,After,S,9,1.7777777777777777,2.0,196,9
+24,Before,G,8,3.0,2.5,227,2
+24,Before,S,14,1.2142857142857142,1.0,330,3
+36,After,G,14,1.7857142857142858,1.0,298,21
+36,After,S,15,1.2666666666666666,1.0,337,12
+36,Before,G,12,2.75,2.5,286,2
+36,Before,S,17,0.9411764705882353,0.0,400,7

@@ -1,0 +1,175 @@
+<div style="padding:18px;border-left:5px solid #b34b36;background:#fff1e9;margin:20px 0"><strong>2026-10-21 发布状态：当前估计快照，尚未完成晋升职级标签修订。</strong><p>广义晋升包含记录职级上升的人大／政协去向，不是所有去向都属于省级机构。主样本44条最早事件为人大／政协的正例由原数据职级上升触发；青岛市政协属于市级去向。丁大卫的无锡市人大副主任记录标“副部”，职务与级别一致性待核验；另有副省长标志与类别冲突、second_line年度聚合问题。数值复现成功不等于这些原始标签已被外部确认。下列系数保留原版本，没有悄悄修改晋升定义。</p><p>公开仓库只含代码与汇总结果；逐人输入和关系证据见本地完整包。被省略的数据下载链接已明确标识。</p></div><!doctype html><html lang="zh"><meta charset="utf-8"><title>主结果与腐败官员检查</title><style>body{max-width:1250px;margin:30px auto;padding:0 24px;font:17px/1.75 system-ui,"Microsoft YaHei",sans-serif;color:#22313b}h1{font-size:30px}h2{margin-top:50px;border-bottom:2px solid #287f9d}h3{margin-top:35px}p{max-width:1120px}img{width:100%;height:auto}figure{margin:24px 0}table{border-collapse:collapse;font-size:15px;width:100%;margin:20px 0}td,th{border-bottom:1px solid #d7e0e6;padding:10px;text-align:left}th{background:#eef4f7}.bullet{margin:8px 0}h4{font-size:21px;margin-top:32px;color:#256783}.equation{background:#f3f7fa;border-left:4px solid #287f9d;padding:12px 16px;overflow-x:auto;margin:20px 0}.equation img{min-width:800px;width:100%;max-height:110px;object-fit:contain;object-position:left}.note{padding:14px 18px;background:#fff7e7;border-left:4px solid #d09b3a}details{margin:24px 0;padding:16px;border:1px solid #d6e0e8;border-radius:6px}summary{cursor:pointer;color:#256783;font-weight:600}nav{padding:15px 18px;background:#eef4f7;border-radius:6px}nav a{margin-right:22px}a{color:#146f93}</style><h1>结果整理：主结果与腐败相关领导更替检查</h1><!-- METHODS_AUDIT_20261021 --><div style="padding:18px;background:#fff2d9;border-left:5px solid #bf8032;margin:24px 0"><strong>版本说明：</strong><a href="../audit_main_page_methods_2026_10_21/index.html">方法审查报告</a>核验的是旧共同422人版本；本页1.4及2.4已按用户要求改为每期限独立样本。旧报告中的样本数字属于历史版本；队列选择、删失与晋升分类的提醒仍适用。</div>
+<p>本文件汇总已有核验结果；本轮没有新增回归或挑选显著窗口。首次巡视按各省实际进驻日期对齐，不是所有省统一以2012年为断点。以下结果是关系组与非关系组晋升差异的变化，不是全体官员的巡视平均效应。</p>
+<nav><a href="#preinspection">事前关系优势与模型</a><a href="#event-A">A：个人＋年份</a><a href="#event-B">B：个人＋省份×年份</a><a href="#corruption">腐败官员检查</a></nav><h2>1．主结果</h2>
+<h3>1.1 样本、变量与关系</h3>
+<p class="bullet">• 主年度结果：2,807个官员年、547人、26省；固定事前关系组中63人。展示k=-4至+4，k=-1为参照。</p>
+<p class="bullet">• CPED重建晋升：行政级别上升，市长升市委书记，或新任副省长（包括已为副部级的市委书记转任副省长）。不把普通委员身份或同级平调自动算晋升。</p>
+<p class="bullet">• C0：与基期省委书记或省长任一人的事前至少六个月共事关系；形成于2012年前、早于双方当前共同任职。个人边保留；本轮不混入同乡和校友。</p>
+<p class="bullet">• 原年度滞后口径形成的关系快照较早：2013巡视省为2011年底，2014巡视省为2012年底，不是进驻前一刻。此次结果整理保留原口径，没有悄悄改变基期。</p>
+<p class="bullet">• C08沿用全部个人控制与经济控制：年龄特征、任期及平方、职级、现职身份，以及官员当年基期任职城市的上年GDP增长、对数人均GDP、对数人口。经济变量跟官员任职地走。个人加时间FE吸收线性年龄项。</p>
+<section id="preinspection"><h3>1.2 巡视前：关系是否对应更高晋升概率？</h3>
+<p>只使用相对时间k=-4至-1，沿用主事件研究来源样本和固定关系C<sup>0</sup>。共1,562个官员年、542人，其中62人为关系组，26省。以下三个控制版本使用完全相同的观测。</p>
+<h4>事前水平回归</h4><div class="equation"><img src="figures/model_pre_level.svg" alt="100 Promotion_it = delta C0_i + province-by-year FE + X_it gamma + error; pre-inspection k=-4,...,-1"></div>
+<p>δ是同一省份、同一年内，事前有关系与无关系官员的条件晋升概率差异。此处不加个人FE，因为固定C<sup>0</sup>会被个人FE完全吸收。依次展示仅省份×年份FE、加个人控制、再加官员任职城市经济控制；标准误按基期省份聚类。</p><figure><img loading="lazy" src="figures/07_preinspection_raw_and_adjusted.png" alt="巡视前原始晋升率与三个控制版本的条件关系差异"></figure>
+<p><strong>结果：</strong>原始年晋升率为17.06%（有关系，29/170）和14.44%（无关系，201/1392）。仅省份×年份FE的条件差异为+1.22个百分点（p=0.614）；加个人控制为+7.75（p=0.031）；完整控制为<strong>+7.98个百分点，95% CI [0.89, 15.07]，p=0.029</strong>。这是事前条件关联，并非关系的因果效应，也不是每个事前年份都显著。</p>
+<details><summary>事前加入城市FE、个人FE的完整敏感性结果</summary>
+<p>加入城市FE时，三个水平模型使用共同样本：1,456个官员年、441人、25省。省份×年份FE下为+7.11个百分点，95% CI [-0.25, 14.46]；城市＋年份FE为+0.98，CI [-13.44, 15.40]；城市＋省份×年份FE为+2.49，CI [-11.64, 16.61]。城市FE版本较不精确，不能只展示显著的原样本版本。</p><figure><img loading="lazy" src="figures/08_preinspection_city_FE_sensitivity.png" alt="事前水平回归城市FE敏感性与个人FE吸收固定关系指标"></figure><div class="equation"><img src="figures/model_pre_change.svg" alt="Pre-only model with individual FE: estimate C0 x event-time relative to k=-1, not an absolute connection premium"></div>
+<p>个人FE版本估计η<sub>k</sub>：早期关系差距相对于k=-1的变化，不能再解释为绝对关系优势。上式F分别取年份、省份×年份、城市＋年份、城市＋省份×年份；年份FE版本另含未被吸收的事件时间主效应。</p><figure><img loading="lazy" src="figures/09_preinspection_individual_FE_changes.png" alt="仅事前个人固定效应：相对于-1期的差距变化"></figure>
+</details><p class="note">事前名单由较晚的巡视前快照固定，早期晋升可能影响进入名单，存在回溯入样选择。该部分与后面的个人FE事件研究估计对象和样本不同，不能把+7.98与事件系数直接相加推算巡视后的绝对优势，也不能用“不显著”宣布无差异。</p></section><section id="event-study"><h3>1.3 年度event study：两组固定效应明确分开</h3>
+<p>定义D<sub>pt</sub><sup>k</sup>=1(t-G<sub>p</sub>=k)，G<sub>p</sub>为基期任职省的首次巡视年。两组都保留<strong>个人FE</strong>，固定C<sup>0</sup>，使用完全相同的2,807个官员年、547人、26省及C08控制；展示k=-4至+4，k=-1为参照。因变量为100×年度晋升指标。</p>
+<p><strong>β<sub>k</sub>的含义：</strong>关系组与非关系组的晋升差距，较巡视前一年改变了多少个百分点；负数表示差距相对下降。它不是当期绝对关系优势，也不是全体官员的巡视效应。</p>
+<h4 id="event-A">A组：标准two-way fixed effects——个人＋年份FE</h4><div class="equation"><img src="figures/model_twfe_year.svg" alt="100 Promotion_it = individual FE + year FE + sum beta_k C0_i Event_k + sum rho_k Event_k + controls + error"></div>
+<p>α<sub>i</sub>吸收官员不随时间变化的特征；λ<sub>t</sub>吸收全国同年共同冲击。巡视相对时间主效应D<sup>k</sup>另行进入回归。该规格允许利用更广的跨省时间比较，尚未吸收各省各年独有的晋升共同冲击。</p><figure><img loading="lazy" src="figures/10_event_TWFE_individual_year.png" alt="A组：个人与年份固定效应，TWFE与Sun-Abraham"></figure><table><thead><tr><th>估计方法</th><th>+1至+4平均变化（百分点）</th><th>95% CI</th><th>原始p值</th></tr></thead><tbody><tr><td>TWFE</td><td>-8.77</td><td>[-25.46, 7.91]</td><td>0.289</td></tr><tr><td>Sun–Abraham</td><td>-7.73</td><td>[-26.96, 11.49]</td><td>0.415</td></tr></tbody></table>
+<h4 id="event-B">B组：加强时间冲击控制——个人＋省份×年份FE</h4><div class="equation"><img src="figures/model_twfe_pxy.svg" alt="100 Promotion_it = individual FE + province-by-year FE + sum beta_k C0_i Event_k + controls + error"></div>
+<p>λ<sub>pt</sub>允许每省每年都有自己的共同晋升环境。它已经包含年份FE；因此不是再估计一套独立年份效应。各事件时间主效应也被吸收。比较依赖同省同年关系组与非关系组的差异及其随时间的变化，同时净化个人固定差异。</p><figure><img loading="lazy" src="figures/11_event_individual_province_year.png" alt="B组：个人与省份乘年份固定效应，TWFE与Sun-Abraham"></figure><table><thead><tr><th>估计方法</th><th>+1至+4平均变化（百分点）</th><th>95% CI</th><th>原始p值</th></tr></thead><tbody><tr><td>TWFE</td><td>-8.64</td><td>[-25.01, 7.74]</td><td>0.288</td></tr><tr><td>Sun–Abraham</td><td>-6.69</td><td>[-24.96, 11.59]</td><td>0.458</td></tr></tbody></table>
+<p><strong>两组解读：</strong>没有加入城市FE的这两组，事后+1至+4平均变化均为负，但95%区间跨零。不能称为四期稳定显著。+4期只有4名事前有关系官员，长期支持有限；图中-1期为空心归一化参照，没有估计的置信区间。平均区间使用完整系数协方差计算，并非四条逐点CI求平均。</p>
+<details><summary>Sun–Abraham对应模型与识别含义</summary><div class="equation"><img src="figures/model_sun.svg" alt="Sun-Abraham: cohort by event-time interactions in the fixed-C0 group, aggregated by cohort weights"></div>
+<p>F取A组或B组的固定效应，未被吸收的事件时间主效应同时纳入。先估计巡视批次g与事件时间k的关系组交互系数，再按相应权重聚合。C<sup>0</sup>=0官员在该关系差异设计中充当对照，但其所在省也接受巡视；因此结果是巡视前后关系差距的变化，仍需相应的条件差异趋势假设。</p></details>
+<details><summary>补充：城市FE敏感性（与上面两组主图分开）</summary>
+<p>以下旧图保留四种FE用于透明对照：个人＋年份，个人＋省份×年份，个人＋城市＋年份，个人＋城市＋省份×年份。城市FE是加法效应，不是城市×年份FE。城市＋年份版本的显著平均下降，在加入省份×年份共同冲击后减弱，说明结果依赖FE结构。</p><figure><img loading="lazy" src="figures/01_main_annual_four_FE.png" alt="四种固定效应敏感性对照"></figure>
+</details><p class="note">这两组图的系数、区间均直接来自已核验CSV。本次更新只整理模型和图，没有重新估计、挑选窗口或改变显著性阈值。</p></section><section id="cumulative-horizon-specific"><h3>1.4 累计晋升：12／24／36个月各用自己的前后完整样本</h3><p><strong>新版：</strong>每个H只要求该H前后结果均可确定，不再要求六个窗口全部完整。12个月497人（57有关系）、24个月466人（52有关系）、36个月425人（46有关系），均25省；每H每人两行。<a href="../cumulative_horizon_specific_samples_2026_10_21/index.html">完整模型、样本流程与同步排省结果</a>。</p><div class="equation">100 Y<sub>is</sub>(H) = α<sub>i</sub> + λ<sub>p,s</sub> + θ<sub>H</sub>C0<sub>i</sub>Post<sub>s</sub> + (X<sub>i0</sub>×Post<sub>s</sub>)′γ<sub>H</sub> + ε<sub>is</sub></div><p>Y表示窗口内至少晋升一次，不是第H个月末是否有任职记录。正向事件可确认1；无正向事件须有充分履历覆盖才能确认0；其他记未知。个人FE吸收固定C0，省份×前后期FE吸收Post；这不是逐年省份×年份FE。</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>期限（月）</th>
+      <th>人数</th>
+      <th>关系组人数</th>
+      <th>θ（百分点）</th>
+      <th>95%下限</th>
+      <th>95%上限</th>
+      <th>常规p</th>
+      <th>wild p</th>
+      <th>wild Holm(3H)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12</td>
+      <td>497</td>
+      <td>57</td>
+      <td>-11.5481</td>
+      <td>-23.9466</td>
+      <td>0.8505</td>
+      <td>0.0665</td>
+      <td>0.0850</td>
+      <td>0.1700</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>466</td>
+      <td>52</td>
+      <td>-32.6161</td>
+      <td>-52.5330</td>
+      <td>-12.6993</td>
+      <td>0.0025</td>
+      <td>0.0102</td>
+      <td>0.0306</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>425</td>
+      <td>46</td>
+      <td>-16.1372</td>
+      <td>-42.0040</td>
+      <td>9.7297</td>
+      <td>0.2102</td>
+      <td>0.2389</td>
+      <td>0.2389</td>
+    </tr>
+  </tbody>
+</table><figure><img src="../cumulative_horizon_specific_samples_2026_10_21/figures/01_horizon_specific_vs_previous.png" alt="每期限独立样本与旧共同422人对照"></figure><figure><img src="../cumulative_horizon_specific_samples_2026_10_21/figures/02_control_sensitivity.png" alt="新版控制敏感性"></figure><p>灰色旧共同422人结果仅作对照；新版各期限样本不同，不将系数跨H变化全部解释为同一批人的动态效应。24／36个月事前窗仍涉及较晚选人的回溯选择，晋升定义与信息性删失问题仍保留。原始p值与三期限Holm校正都报告，不判定“关系优势消失”。</p></section><h2 id="corruption">2．腐败相关领导更替的检查</h2>
+<h3>2.1 要排查的解释</h3>
+<p>原支持者因查处退出，可能导致其旧部晋升表现下降，而不必意味着支持者仍在时关系回报降低。省份×年份FE可以吸收共同省级冲击，但不能吸收只影响该领导旧部的额外损失。若查处由巡视引起，更替也可能是巡视机制而非普通遗漏因素。</p>
+<h3>2.2 原联系对象是否仍在：旧共同样本的描述性核查</h3><p><strong>口径说明：</strong>本小节45名关系官员及下一小节的描述统计保留自旧共同422人版本，不是新版每个期限各自的关系组人数。用于解释退出机制的局限，不能直接当作新版样本的比例。</p>
+<p>累计样本45名事前有关系者中，至少一名原联系对象仍任本省书记/省长的人数：巡视进驻时35，12个月末26，24个月末16，36个月末7。原联系对象均不再任这两个职位的人数相应为10、19、29、38。</p>
+<p>这按市级官员计数，不是省级领导离任率；且原关系快照较早，有10人在巡视开始时原联系对象已离任。不能由此直接认定因反腐失去支持。</p>
+<h3>2.3 对称前后窗的总体更替与网络构成：只作描述</h3>
+<table><thead><tr><th>窗口</th><th>巡视前离任比例</th><th>巡视后离任比例</th><th>前期离任领导平均联系人数</th><th>后期离任领导平均联系人数</th></tr></thead><tbody>
+<tr><td>12个月</td><td>13.3%（8/60）</td><td>13.3%（8/60）</td><td>1.00（8位领导）</td><td>2.14（7位领导）</td></tr>
+<tr><td>24个月</td><td>46.3%（25/54）</td><td>29.6%（16/54）</td><td>1.86（22位领导）</td><td>2.00（16位领导）</td></tr>
+<tr><td>36个月</td><td>63.5%（33/52）</td><td>63.5%（33/52）</td><td>1.69（29位领导）</td><td>1.52（29位领导）</td></tr>
+</tbody></table>
+<p>总体更替未显示巡视后普遍加快；离任者网络规模的差异方向随期限变化。离任包含正常调任与查处等所有原因，不能称为“正常离任率相同”。左右统计的省份范围不同：网络部分没有直辖市的可比地级市主官关系池；但各H内前后使用匹配省份框架。关系未知不补0。</p>
+<p>修正先前表达：这些是固定样本的描述统计。本轮不展示其bootstrap区间，不用此前人为重抽样的区间断言“差异不显著”或“前后等效”。描述性模式不能排除特定旧部群体更容易失去支持者。</p>
+<figure><img src="figures/06_descriptive_turnover_networks_no_CI.png" alt="离任与网络描述统计，无抽样CI"></figure>
+<h3>2.4 整省排除后重跑：累计部分已同步使用各期限独立样本</h3><p>Strict排除河北、福建及原本不在主样本中的沪津渝；Plus_discipline再排四川；Plus_recent再排辽宁、甘肃。保留原关系、结果、日期、控制和FE。年度event study没有改样本，本次只将累计排省检查同步至新版每期限面板。</p><figure><img src="../cumulative_horizon_specific_samples_2026_10_21/figures/03_corruption_exclusion_horizon_specific.png" alt="每期限独立样本的腐败排除检查"></figure><p>新版24个月主规格：</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variant</th>
+      <th>b</th>
+      <th>lo</th>
+      <th>hi</th>
+      <th>p_wild</th>
+      <th>p_wild_holm_3H</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Original</td>
+      <td>-32.6161</td>
+      <td>-52.5330</td>
+      <td>-12.6993</td>
+      <td>0.0102</td>
+      <td>0.0306</td>
+    </tr>
+    <tr>
+      <td>Strict</td>
+      <td>-33.2278</td>
+      <td>-53.7184</td>
+      <td>-12.7371</td>
+      <td>0.0127</td>
+      <td>0.0381</td>
+    </tr>
+    <tr>
+      <td>Plus_discipline</td>
+      <td>-32.8393</td>
+      <td>-54.1493</td>
+      <td>-11.5292</td>
+      <td>0.0167</td>
+      <td>0.0501</td>
+    </tr>
+    <tr>
+      <td>Plus_recent</td>
+      <td>-34.7252</td>
+      <td>-54.7771</td>
+      <td>-14.6733</td>
+      <td>0.0066</td>
+      <td>0.0198</td>
+    </tr>
+  </tbody>
+</table><p>各期限删样人数和有关系者人数见完整样本流程。整省排除仍不能替代逐一核验原支持者退出；按事后查处选省也改变比较总体。</p><details><summary>未改动的年度城市＋年份FE结果</summary><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>estimator</th>
+      <th>Sun_Abraham</th>
+      <th>TWFE_fixed</th>
+    </tr>
+    <tr>
+      <th>variant</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Original</th>
+      <td>-18.659</td>
+      <td>-19.099</td>
+    </tr>
+    <tr>
+      <th>Strict</th>
+      <td>-18.837</td>
+      <td>-19.580</td>
+    </tr>
+    <tr>
+      <th>Plus_discipline</th>
+      <td>-18.599</td>
+      <td>-19.312</td>
+    </tr>
+    <tr>
+      <th>Plus_recent</th>
+      <td>-19.105</td>
+      <td>-20.712</td>
+    </tr>
+  </tbody>
+</table><figure><img src="figures/04_corruption_exclusion_annual.png" alt="未改动的年度排省检查"></figure></details><h3>2.5 当前可用表述</h3><p>“累计晋升分析对每个期限分别使用其前后结果完整的官员样本，并将旧共同样本作为对照；条件关联、各期限样本构成与腐败相关排省结果分别报告。年度event study仍对FE敏感，较晚选人、信息性删失和晋升类型混合尚未解决，因此不能宣布巡视已因果性地消除关系作用。”</p><!-- HOMETOWN_SCHOOL_EXTENSION --><h2>补充：同乡与同期校友的事件研究</h2><p>沿用固定巡视前分组、C08控制及两组FE。关系组很小，缺乏支持的后期留空。<strong>两类关系在两组FE与两种方法下的事前联合检验均p&lt;0.05，不能把事后系数解读为通过平行趋势的因果效应。</strong><a href="../hometown_classmate_fixed_event_study_2026_10_21/index.html">查看模型、各期样本支持及全部结果</a>。</p><figure><img src="../hometown_classmate_fixed_event_study_2026_10_21/figures/01_hometown_classmate_two_FE.png" alt="同乡与校友两组FE事件研究"></figure><!-- UNION_HOMETOWN_SCHOOL --><h2>补充：同乡或同期校友，合并关系</h2><p>任一关系成立即记1，未知不补0。<a href="../union_hometown_school_event_study_2026_10_21/index.html">查看模型、样本支持与全部结果</a>。</p><p>四个模型的事前联合检验均p&lt;0.05；不满足常规的事前平行差异趋势检验，不能将事后负系数解释成已识别的巡视因果效应。</p><figure><img src="../union_hometown_school_event_study_2026_10_21/figures/01_union_ties_two_FE.png" alt="同乡或校友合并关系事件研究"></figure><h2>文件与核验</h2>
+<p>正文加入事前证据、明确区分两组事件研究及模型方程，后接累计晋升和腐败更替检查；图均为英文。本次直接更新原HTML页面。汇总Excel保留原始系数、95%区间、常规/wild/校正p及排除证据。有关显著性的描述来自原回归推断；离任率/人数仅作描述统计。既有23项排省重估核验全部通过，原结果可精确复现、累计点由一阶差分复核；本轮没有重跑或覆盖它们。</p><h3>排除分类的官方来源</h3><ul><li>上海 陈良宇：<a href="https://newyork.china-consulate.gov.cn/xw/200609/t20060927_4230881.htm">官方证据</a>；Removed as Shanghai secretary with investigation; pre-2012 case</li><li>重庆 薄熙来：<a href="https://www.ccdi.gov.cn/yaowen/201308/t20130827_129029.html">官方证据</a>；March 2012 departure followed by April case; same removal episode</li><li>重庆 孙政才：<a href="https://www.ccdi.gov.cn/scdcn/zggb/djcf/201709/t20170929_40177_m.html">官方证据</a>；Official decision states July 14 removal for discipline examination; formal case July24</li><li>河北 周本顺：<a href="https://m.ccdi.gov.cn/content/a5/a9/4712.html">官方证据</a>；Serving provincial secretary when investigation announced</li><li>福建 苏树林：<a href="https://m.ccdi.gov.cn/content/3b/67/6115.html">官方证据</a>；Serving governor when investigation announced</li><li>天津 黄兴国：<a href="https://m.ccdi.gov.cn/content/81/43/12051.html">官方证据</a>；Serving mayor and acting party secretary</li><li>四川 魏宏：<a href="https://www.xinhuanet.com/politics/2016-02/04/c_128703422.htm">官方证据</a>；Disciplinary removal/demotion; not coded as a bribery conviction</li><li>辽宁 王珉：<a href="https://politics.people.com.cn/n1/2016/0304/c1001-28171756.html">官方证据</a>；Left Liaoning May2015; investigated March2016 in NPC office; not proven causal departure</li><li>甘肃 王三运：<a href="https://m.ccdi.gov.cn/content/6e/ee/19768.html?from=singlemessage&amp;isappinstalled=0">官方证据</a>；Left Gansu March2017; investigated July2017; not asserted contemporaneous removal</li></ul><p><a href="../cumulative_horizon_specific_samples_2026_10_21/每期限独立样本_全部结果.xlsx">下载新版累计结果Excel</a>；<a href="主结果与腐败官员检查_汇总.xlsx">旧共同样本汇总Excel（历史版本）</a></p><p>本次页面更新：2026-10-21。事前原样本与城市FE共同样本分别报告；年度两组主图使用相同观测。<a href="data/annual_event_two_FE_groups.csv">下载两组事件研究系数</a>；<a href="code/update_main_html_pre_models.py">页面更新代码</a>。原页面备份保存在code/中。</p></html>

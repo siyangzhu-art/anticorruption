@@ -1,0 +1,97 @@
+﻿check,status,detail
+Unique city office-year,PASS,12026
+At most one city per person-year,PASS,12026
+Fixed person edges unique and no self ties,PASS,71048
+pre2012: cowork_6m_frozen is binary or NA,PASS,"{0.0: np.int64(134572), 1.0: np.int64(8927), nan: np.int64(3324)}"
+pre2012: cowork_6m_asof is binary or NA,PASS,"{0.0: np.int64(136698), 1.0: np.int64(5420), nan: np.int64(4705)}"
+pre2012: cowork_6m fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012: cowork_6m once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 3473, 'one_to_zero_or_NA': 0}"
+pre2012: cowork_6m asof equals frozen after cutoff,PASS,54160
+pre2012: classmate_6m_frozen is binary or NA,PASS,"{nan: np.int64(94648), 0.0: np.int64(50729), 1.0: np.int64(1446)}"
+pre2012: classmate_6m_asof is binary or NA,PASS,"{nan: np.int64(94648), 0.0: np.int64(50729), 1.0: np.int64(1446)}"
+pre2012: classmate_6m fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012: classmate_6m once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 937, 'one_to_zero_or_NA': 0}"
+pre2012: classmate_6m asof equals frozen after cutoff,PASS,54160
+pre2012: hometown_prefecture_frozen is binary or NA,PASS,"{0.0: np.int64(128012), nan: np.int64(12044), 1.0: np.int64(6767)}"
+pre2012: hometown_prefecture_asof is binary or NA,PASS,"{0.0: np.int64(128012), nan: np.int64(12044), 1.0: np.int64(6767)}"
+pre2012: hometown_prefecture fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012: hometown_prefecture once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 4379, 'one_to_zero_or_NA': 0}"
+pre2012: hometown_prefecture asof equals frozen after cutoff,PASS,54160
+pre2012: connected_frozen is binary or NA,PASS,"{nan: np.int64(86968), 0.0: np.int64(43617), 1.0: np.int64(16238)}"
+pre2012: connected_asof is binary or NA,PASS,"{nan: np.int64(89201), 0.0: np.int64(44695), 1.0: np.int64(12927)}"
+pre2012: connected fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012: connected once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 8323, 'one_to_zero_or_NA': 0}"
+pre2012: connected asof equals frozen after cutoff,PASS,54160
+pre2012: cowork_6m city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012', 'relation': 'cowork_6m', 'adjacent_city_office_observations': 130654, 'known_status_changes': 3900, 'changes_same_people': 24, 'changes_different_people': 3876, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012: classmate_6m city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012', 'relation': 'classmate_6m', 'adjacent_city_office_observations': 130654, 'known_status_changes': 599, 'changes_same_people': 0, 'changes_different_people': 599, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012: hometown_prefecture city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012', 'relation': 'hometown_prefecture', 'adjacent_city_office_observations': 130654, 'known_status_changes': 4633, 'changes_same_people': 0, 'changes_different_people': 4633, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012: connected city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012', 'relation': 'connected', 'adjacent_city_office_observations': 130654, 'known_status_changes': 3265, 'changes_same_people': 7, 'changes_different_people': 3258, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012: national mapping completeness 2000,PASS,"{'expected_person_edges': 1396, 'observed': 1396, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2001,PASS,"{'expected_person_edges': 1517, 'observed': 1517, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2002,PASS,"{'expected_person_edges': 1663, 'observed': 1663, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2003,PASS,"{'expected_person_edges': 1534, 'observed': 1534, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2004,PASS,"{'expected_person_edges': 1702, 'observed': 1702, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2005,PASS,"{'expected_person_edges': 1753, 'observed': 1753, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2006,PASS,"{'expected_person_edges': 1681, 'observed': 1681, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2007,PASS,"{'expected_person_edges': 1624, 'observed': 1624, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2008,PASS,"{'expected_person_edges': 1219, 'observed': 1219, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2009,PASS,"{'expected_person_edges': 1444, 'observed': 1444, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2010,PASS,"{'expected_person_edges': 1435, 'observed': 1435, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2011,PASS,"{'expected_person_edges': 1388, 'observed': 1388, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2012,PASS,"{'expected_person_edges': 1450, 'observed': 1450, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2013,PASS,"{'expected_person_edges': 1380, 'observed': 1380, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2014,PASS,"{'expected_person_edges': 1377, 'observed': 1377, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2015,PASS,"{'expected_person_edges': 1328, 'observed': 1328, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2016,PASS,"{'expected_person_edges': 1356, 'observed': 1356, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2017,PASS,"{'expected_person_edges': 1277, 'observed': 1277, 'missing': 0, 'extra': 0}"
+pre2012: national mapping completeness 2018,PASS,"{'expected_person_edges': 1172, 'observed': 1172, 'missing': 0, 'extra': 0}"
+pre2012Nov15: cowork_6m_frozen is binary or NA,PASS,"{0.0: np.int64(134276), 1.0: np.int64(10068), nan: np.int64(2479)}"
+pre2012Nov15: cowork_6m_asof is binary or NA,PASS,"{0.0: np.int64(137189), 1.0: np.int64(5658), nan: np.int64(3976)}"
+pre2012Nov15: cowork_6m fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012Nov15: cowork_6m once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 3591, 'one_to_zero_or_NA': 0}"
+pre2012Nov15: cowork_6m asof equals frozen after cutoff,PASS,46053
+pre2012Nov15: classmate_6m_frozen is binary or NA,PASS,"{nan: np.int64(94648), 0.0: np.int64(50729), 1.0: np.int64(1446)}"
+pre2012Nov15: classmate_6m_asof is binary or NA,PASS,"{nan: np.int64(94648), 0.0: np.int64(50729), 1.0: np.int64(1446)}"
+pre2012Nov15: classmate_6m fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012Nov15: classmate_6m once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 937, 'one_to_zero_or_NA': 0}"
+pre2012Nov15: classmate_6m asof equals frozen after cutoff,PASS,46053
+pre2012Nov15: hometown_prefecture_frozen is binary or NA,PASS,"{0.0: np.int64(128012), nan: np.int64(12044), 1.0: np.int64(6767)}"
+pre2012Nov15: hometown_prefecture_asof is binary or NA,PASS,"{0.0: np.int64(128012), nan: np.int64(12044), 1.0: np.int64(6767)}"
+pre2012Nov15: hometown_prefecture fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012Nov15: hometown_prefecture once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 4379, 'one_to_zero_or_NA': 0}"
+pre2012Nov15: hometown_prefecture asof equals frozen after cutoff,PASS,46053
+pre2012Nov15: connected_frozen is binary or NA,PASS,"{nan: np.int64(86356), 0.0: np.int64(43142), 1.0: np.int64(17325)}"
+pre2012Nov15: connected_asof is binary or NA,PASS,"{nan: np.int64(89094), 0.0: np.int64(44573), 1.0: np.int64(13156)}"
+pre2012Nov15: connected fixed status invariant for same two people,PASS,"{'observed_person_pairs': 53841, 'violations': 0}"
+pre2012Nov15: connected once formed never disappears for same two people,PASS,"{'comparisons_after_observed_1': 8436, 'one_to_zero_or_NA': 0}"
+pre2012Nov15: connected asof equals frozen after cutoff,PASS,46053
+pre2012Nov15: cowork_6m city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012Nov15', 'relation': 'cowork_6m', 'adjacent_city_office_observations': 130654, 'known_status_changes': 4092, 'changes_same_people': 29, 'changes_different_people': 4063, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012Nov15: classmate_6m city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012Nov15', 'relation': 'classmate_6m', 'adjacent_city_office_observations': 130654, 'known_status_changes': 599, 'changes_same_people': 0, 'changes_different_people': 599, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012Nov15: hometown_prefecture city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012Nov15', 'relation': 'hometown_prefecture', 'adjacent_city_office_observations': 130654, 'known_status_changes': 4633, 'changes_same_people': 0, 'changes_different_people': 4633, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012Nov15: connected city exposure 1->0 requires personnel change,PASS,"{'cutoff': 'pre2012Nov15', 'relation': 'connected', 'adjacent_city_office_observations': 130654, 'known_status_changes': 3341, 'changes_same_people': 8, 'changes_different_people': 3333, 'one_to_zero_same_people': 0, 'positive_to_unknown_same_people': 0}"
+pre2012Nov15: national mapping completeness 2000,PASS,"{'expected_person_edges': 1434, 'observed': 1434, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2001,PASS,"{'expected_person_edges': 1568, 'observed': 1568, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2002,PASS,"{'expected_person_edges': 1743, 'observed': 1743, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2003,PASS,"{'expected_person_edges': 1620, 'observed': 1620, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2004,PASS,"{'expected_person_edges': 1822, 'observed': 1822, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2005,PASS,"{'expected_person_edges': 1888, 'observed': 1888, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2006,PASS,"{'expected_person_edges': 1834, 'observed': 1834, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2007,PASS,"{'expected_person_edges': 1777, 'observed': 1777, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2008,PASS,"{'expected_person_edges': 1322, 'observed': 1322, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2009,PASS,"{'expected_person_edges': 1530, 'observed': 1530, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2010,PASS,"{'expected_person_edges': 1515, 'observed': 1515, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2011,PASS,"{'expected_person_edges': 1454, 'observed': 1454, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2012,PASS,"{'expected_person_edges': 1467, 'observed': 1467, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2013,PASS,"{'expected_person_edges': 1394, 'observed': 1394, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2014,PASS,"{'expected_person_edges': 1411, 'observed': 1411, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2015,PASS,"{'expected_person_edges': 1369, 'observed': 1369, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2016,PASS,"{'expected_person_edges': 1408, 'observed': 1408, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2017,PASS,"{'expected_person_edges': 1328, 'observed': 1328, 'missing': 0, 'extra': 0}"
+pre2012Nov15: national mapping completeness 2018,PASS,"{'expected_person_edges': 1223, 'observed': 1223, 'missing': 0, 'extra': 0}"
+Every annual edge loss explained by roster/city/office filters,PASS,both cutoff versions; all relations; national and same-office visible graphs
+Prior policy regression observations match current source actor pairs,PASS,46873
+Prior regression cowork_6m unchanged from audited source,PASS,46873
+Prior regression classmate_6m unchanged from audited source,PASS,46873
+Prior regression hometown_prefecture unchanged from audited source,PASS,46873
+Prior regression connected unchanged from audited source,PASS,46873
+Source network and existing outputs unchanged by this audit,PASS,"{'person_edges_pre2012.csv.gz': '371033301852be3a13a6e9ba6a0d963b5f8e1eb7fc475610fedf7384263cde87', 'city_pairs_same_province_pre2012.csv.gz': '5c6207b6ddb52dcdcc9240c38e637a0b130563cbf7e41ea2ccf43b624852cd7e', 'annual_positive_links_national_pre2012.csv.gz': 'f8aa5605fb496336840db78df9f33b1d5fbe372be68109820c7a3b35de568e5a', 'city_officeholder_year_start.csv': '2a1a9fdc00a84ee1da053a1acd571621b83011aa00d8dd179d647829299fb3c5', 'active_official_year_recorded_degrees.csv.gz': '8d1e267268ba4570db45c2dae0342110d88e4a479ec88a539ecaadfea7f27b11', '官员个人网络_交互查看.html': '2d529af86ce0d07c38dd6cf4559daa9c92a98b8adff312727d6746ee8529a57c'}"

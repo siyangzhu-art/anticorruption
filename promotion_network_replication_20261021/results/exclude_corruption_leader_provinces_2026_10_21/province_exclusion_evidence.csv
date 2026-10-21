@@ -1,0 +1,10 @@
+﻿province_code,province,leader,office,case_or_discipline_date,category,source_url,classification_note,verified_on
+310000,上海,陈良宇,S,2006-09-24,strict,https://newyork.china-consulate.gov.cn/xw/200609/t20060927_4230881.htm,Removed as Shanghai secretary with investigation; pre-2012 case,2026-10-21
+500000,重庆,薄熙来,S,2012-04-10,strict,https://www.ccdi.gov.cn/yaowen/201308/t20130827_129029.html,March 2012 departure followed by April case; same removal episode,2026-10-21
+500000,重庆,孙政才,S,2017-07-24,strict,https://www.ccdi.gov.cn/scdcn/zggb/djcf/201709/t20170929_40177_m.html,Official decision states July 14 removal for discipline examination; formal case July24,2026-10-21
+130000,河北,周本顺,S,2015-07-24,strict,https://m.ccdi.gov.cn/content/a5/a9/4712.html,Serving provincial secretary when investigation announced,2026-10-21
+350000,福建,苏树林,G,2015-10-07,strict,https://m.ccdi.gov.cn/content/3b/67/6115.html,Serving governor when investigation announced,2026-10-21
+120000,天津,黄兴国,G/S,2016-09-10,strict,https://m.ccdi.gov.cn/content/81/43/12051.html,Serving mayor and acting party secretary,2026-10-21
+510000,四川,魏宏,G,2016-02-04,disciplinary,https://www.xinhuanet.com/politics/2016-02/04/c_128703422.htm,Disciplinary removal/demotion; not coded as a bribery conviction,2026-10-21
+210000,辽宁,王珉,S,2016-03-04,recent_former,https://politics.people.com.cn/n1/2016/0304/c1001-28171756.html,Left Liaoning May2015; investigated March2016 in NPC office; not proven causal departure,2026-10-21
+620000,甘肃,王三运,S,2017-07-11,recent_former,https://m.ccdi.gov.cn/content/6e/ee/19768.html?from=singlemessage&isappinstalled=0,Left Gansu March2017; investigated July2017; not asserted contemporaneous removal,2026-10-21

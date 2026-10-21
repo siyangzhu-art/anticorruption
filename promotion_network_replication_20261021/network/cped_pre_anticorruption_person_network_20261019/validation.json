@@ -1,0 +1,61 @@
+{
+  "status": "PASS_internal_and_original_source_consistency_not_external_fact_verification",
+  "no_outcomes_read": true,
+  "checks": [
+    {
+      "check": "original ZIP hash unchanged",
+      "status": "PASS",
+      "rows": 73487
+    },
+    {
+      "check": "pre2012: all positive evidence checked against original workbook rows/keys/dates",
+      "status": "PASS",
+      "rows": 82619
+    },
+    {
+      "check": "pre2012: undirected unique edges, earliest threshold dates, no future ties",
+      "status": "PASS",
+      "rows": 71048
+    },
+    {
+      "check": "pre2012Nov15: all positive evidence checked against original workbook rows/keys/dates",
+      "status": "PASS",
+      "rows": 84912
+    },
+    {
+      "check": "pre2012Nov15: undirected unique edges, earliest threshold dates, no future ties",
+      "status": "PASS",
+      "rows": 72635
+    },
+    {
+      "check": "unique actual city assignment on snapshot day; no province-leader matching required",
+      "status": "PASS",
+      "rows": 12026
+    },
+    {
+      "check": "pre2012: full annual mapped pairs, correct people, fixed edges and unknown propagation",
+      "status": "PASS",
+      "rows": 146823
+    },
+    {
+      "check": "pre2012: after cutoff, as-of and frozen ties agree for every mapped person pair",
+      "status": "PASS",
+      "rows": 46053
+    },
+    {
+      "check": "pre2012Nov15: full annual mapped pairs, correct people, fixed edges and unknown propagation",
+      "status": "PASS",
+      "rows": 146823
+    },
+    {
+      "check": "pre2012Nov15: after cutoff, as-of and frozen ties agree for every mapped person pair",
+      "status": "PASS",
+      "rows": 46053
+    },
+    {
+      "check": "nested cutoff graphs for all three relations",
+      "status": "PASS",
+      "rows": 71048
+    }
+  ]
+}

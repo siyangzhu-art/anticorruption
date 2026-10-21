@@ -1,0 +1,7 @@
+﻿sample,horizon_months,phase,provinces,baseline_leaders,retained_S_or_G,not_recorded_S_or_G,retention_pct,departure_pct
+Paired clear rosters,12,After,30,60,52,8,86.66666666666667,13.333333333333334
+Paired clear rosters,12,Before,30,60,52,8,86.66666666666667,13.333333333333334
+Paired clear rosters,24,After,27,54,38,16,70.37037037037037,29.62962962962963
+Paired clear rosters,24,Before,27,54,29,25,53.7037037037037,46.2962962962963
+Paired clear rosters,36,After,26,52,19,33,36.53846153846154,63.46153846153846
+Paired clear rosters,36,Before,26,52,19,33,36.53846153846154,63.46153846153846

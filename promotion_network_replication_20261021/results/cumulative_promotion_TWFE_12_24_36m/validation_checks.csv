@@ -1,0 +1,135 @@
+﻿check,passed,detail
+54 models completed,True,
+No model failures,True,
+All expected observations retained,True,
+All models finite,True,
+Every estimate has positive SE,True,
+All 54 TWFE points equal first-difference Stata OLS,True,4.689582056016661e-13
+Python FWL point 1,True,
+Python cluster covariance 1,True,1.0835776720341528e-13
+Python FWL point 2,True,
+Python cluster covariance 2,True,4.973799150320701e-14
+Python FWL point 3,True,
+Python cluster covariance 3,True,-5.240252676230739e-14
+Python FWL point 4,True,
+Python cluster covariance 4,True,4.440892098500626e-15
+Python FWL point 5,True,
+Python cluster covariance 5,True,1.0658141036401503e-14
+Python FWL point 6,True,
+Python cluster covariance 6,True,2.042810365310288e-14
+Python FWL point 7,True,
+Python cluster covariance 7,True,9.237055564881302e-14
+Python FWL point 8,True,
+Python cluster covariance 8,True,3.730349362740526e-14
+Python FWL point 9,True,
+Python cluster covariance 9,True,1.7763568394002505e-15
+Python FWL point 10,True,
+Python cluster covariance 10,True,2.1316282072803006e-14
+Python FWL point 11,True,
+Python cluster covariance 11,True,7.993605777301127e-14
+Python FWL point 12,True,
+Python cluster covariance 12,True,1.0658141036401503e-13
+Python FWL point 13,True,
+Python cluster covariance 13,True,-7.283063041541027e-14
+Python FWL point 14,True,
+Python cluster covariance 14,True,-3.730349362740526e-14
+Python FWL point 15,True,
+Python cluster covariance 15,True,-4.973799150320701e-14
+Python FWL point 16,True,
+Python cluster covariance 16,True,-4.973799150320701e-14
+Python FWL point 17,True,
+Python cluster covariance 17,True,-4.085620730620576e-14
+Python FWL point 18,True,
+Python cluster covariance 18,True,5.329070518200751e-15
+Python FWL point 19,True,
+Python cluster covariance 19,True,-2.0694557179012918e-13
+Python FWL point 20,True,
+Python cluster covariance 20,True,-1.580957587066223e-13
+Python FWL point 21,True,
+Python cluster covariance 21,True,3.552713678800501e-14
+Python FWL point 22,True,
+Python cluster covariance 22,True,2.3092638912203256e-14
+Python FWL point 23,True,
+Python cluster covariance 23,True,-6.217248937900877e-15
+Python FWL point 24,True,
+Python cluster covariance 24,True,-8.881784197001252e-16
+Python FWL point 25,True,
+Python cluster covariance 25,True,2.4513724383723456e-13
+Python FWL point 26,True,
+Python cluster covariance 26,True,7.638334409421077e-14
+Python FWL point 27,True,
+Python cluster covariance 27,True,3.2862601528904634e-14
+Python FWL point 28,True,
+Python cluster covariance 28,True,-1.4210854715202004e-14
+Python FWL point 29,True,
+Python cluster covariance 29,True,5.3290705182007514e-14
+Python FWL point 30,True,
+Python cluster covariance 30,True,9.769962616701378e-14
+Python FWL point 31,True,
+Python cluster covariance 31,True,3.552713678800501e-14
+Python FWL point 32,True,
+Python cluster covariance 32,True,8.881784197001252e-15
+Python FWL point 33,True,
+Python cluster covariance 33,True,3.907985046680551e-14
+Python FWL point 34,True,
+Python cluster covariance 34,True,9.237055564881302e-14
+Python FWL point 35,True,
+Python cluster covariance 35,True,-2.6645352591003757e-14
+Python FWL point 36,True,
+Python cluster covariance 36,True,1.0658141036401503e-14
+Python FWL point 37,True,
+Python cluster covariance 37,True,0.0
+Python FWL point 38,True,
+Python cluster covariance 38,True,7.993605777301127e-15
+Python FWL point 39,True,
+Python cluster covariance 39,True,0.0
+Python FWL point 40,True,
+Python cluster covariance 40,True,0.0
+Python FWL point 41,True,
+Python cluster covariance 41,True,7.993605777301127e-15
+Python FWL point 42,True,
+Python cluster covariance 42,True,3.552713678800501e-15
+Python FWL point 43,True,
+Python cluster covariance 43,True,1.7763568394002505e-15
+Python FWL point 44,True,
+Python cluster covariance 44,True,5.329070518200751e-15
+Python FWL point 45,True,
+Python cluster covariance 45,True,0.0
+Python FWL point 46,True,
+Python cluster covariance 46,True,-1.4210854715202004e-14
+Python FWL point 47,True,
+Python cluster covariance 47,True,-6.217248937900877e-15
+Python FWL point 48,True,
+Python cluster covariance 48,True,8.881784197001252e-16
+Python FWL point 49,True,
+Python cluster covariance 49,True,5.329070518200751e-15
+Python FWL point 50,True,
+Python cluster covariance 50,True,-1.1546319456101628e-14
+Python FWL point 51,True,
+Python cluster covariance 51,True,5.329070518200751e-15
+Python FWL point 52,True,
+Python cluster covariance 52,True,-1.4210854715202004e-14
+Python FWL point 53,True,
+Python cluster covariance 53,True,-8.881784197001252e-15
+Python FWL point 54,True,
+Python cluster covariance 54,True,3.552713678800501e-15
+Three province wild tests complete,True,
+One window record per person-H-phase,True,
+Known zero requires full observation and no unresolved appointment,True,
+"Cumulative successes monotone across nested windows, phase=0",True,
+"Cumulative successes monotone across nested windows, phase=1",True,
+Common cohort exactly 422 officials H=12,True,
+Paired two observations H=12,True,
+Fixed personal connection H=12,True,
+Common cohort exactly 422 officials H=24,True,
+Paired two observations H=24,True,
+Fixed personal connection H=24,True,
+Common cohort exactly 422 officials H=36,True,
+Paired two observations H=36,True,
+Fixed personal connection H=36,True,
+All positive windows have source-backed events,True,
+Positive event is inside the exact window,True,
+All windows within complete observation calendar,True,
+All prior audited positive annual events preserved,True,
+Four readable figures,True,
+No PDF generated,True,

@@ -1,0 +1,6 @@
+inputs/
+rerun/
+__pycache__/
+*.pyc
+.env
+*.log

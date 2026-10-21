@@ -1,0 +1,3 @@
+﻿model_id,relation,fe,absorb,N
+1,hometown_or_classmate,I_YEAR,person_id year,1151
+2,hometown_or_classmate,I_PXY,person_id py,1151

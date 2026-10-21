@@ -1,0 +1,13 @@
+﻿variant,H,eligible_people,paired_known_people,horizon_unknown_people,singleton_people,people,rows,connected_people,provinces,connected_provinces,excluded_province_people,removed_connected_people
+Original,12,545,498,47,1,497,994,57,25,20,0,0
+Strict,12,545,498,47,1,461,922,57,23,20,36,0
+Plus_discipline,12,545,498,47,1,431,862,56,22,19,66,1
+Plus_recent,12,545,498,47,1,382,764,43,20,17,115,14
+Original,24,545,467,78,1,466,932,52,25,18,0,0
+Strict,24,545,467,78,1,433,866,52,23,18,33,0
+Plus_discipline,24,545,467,78,1,405,810,51,22,17,61,1
+Plus_recent,24,545,467,78,1,359,718,40,20,15,107,12
+Original,36,545,426,119,1,425,850,46,25,18,0,0
+Strict,36,545,426,119,1,396,792,46,23,18,29,0
+Plus_discipline,36,545,426,119,1,370,740,45,22,17,55,1
+Plus_recent,36,545,426,119,1,327,654,34,20,15,98,12

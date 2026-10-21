@@ -1,0 +1,35 @@
+[
+  {
+    "check": "Independent pre-cutoff concurrent-employment classification",
+    "status": "PASS",
+    "violations": 0
+  },
+  {
+    "check": "Independent all-candidate cowork_6m edges and first formation dates",
+    "status": "PASS",
+    "candidate_episode_pairs": 203640,
+    "recomputed_person_edges": 24056,
+    "released_person_edges": 24056,
+    "missing": 0,
+    "extra": 0,
+    "wrong_dates": 0
+  },
+  {
+    "check": "Independent all-candidate classmate_6m edges and first formation dates",
+    "status": "PASS",
+    "candidate_episode_pairs": 26366,
+    "recomputed_person_edges": 5569,
+    "released_person_edges": 5569,
+    "missing": 0,
+    "extra": 0,
+    "wrong_dates": 0
+  },
+  {
+    "check": "Independent all hometown group combinations",
+    "status": "PASS",
+    "recomputed_person_edges": 42734,
+    "released_person_edges": 42734,
+    "missing": 0,
+    "extra": 0
+  }
+]

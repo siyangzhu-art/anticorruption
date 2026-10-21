@@ -1,0 +1,22 @@
+{
+  "main": [
+    "audit_main_page_methods_2026_10_21/code/isolated_rerun.do",
+    "rerun_results.dta"
+  ],
+  "corruption": [
+    "audit_main_page_methods_2026_10_21/code/corruption_rerun.do",
+    "corruption_rerun.dta"
+  ],
+  "cumulative": [
+    "cumulative_horizon_specific_samples_2026_10_21/code/run_models.do",
+    "coefficients.dta"
+  ],
+  "hometown_school": [
+    "hometown_classmate_fixed_event_study_2026_10_21/code/run_models.do",
+    "coefficients.dta"
+  ],
+  "union_ties": [
+    "union_hometown_school_event_study_2026_10_21/code/run_models.do",
+    "coefficients.dta"
+  ]
+}

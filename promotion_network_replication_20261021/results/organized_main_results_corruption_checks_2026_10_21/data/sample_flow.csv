@@ -1,0 +1,9 @@
+﻿design,variant,N,people,G,connected_people,excluded_rows,singleton_rows
+Annual,Original,2807,547,26,63,0,0
+Annual,Strict,2629,508,24,63,178,0
+Annual,Plus_discipline,2451,473,23,62,356,0
+Annual,Plus_recent,2178,419,21,49,629,0
+Cumulative,Original,844,422,24,45,0,0
+Cumulative,Strict,786,393,22,45,58,0
+Cumulative,Plus_discipline,734,367,21,44,110,0
+Cumulative,Plus_recent,648,324,19,33,196,0

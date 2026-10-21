@@ -1,0 +1,6 @@
+model_id,sample,fe,control_id,control_label,absorb,controls
+9,fixed,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+18,fixed,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+21,fixed,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+27,fixed,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+36,fixed,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag

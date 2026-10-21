@@ -1,0 +1,17 @@
+model_id,variant,fe,expected_N
+1,Original,I_YEAR,2807
+2,Original,I_PXY,2807
+3,Original,I_CITY_YEAR,2807
+4,Original,I_CITY_PXY,2807
+5,Strict,I_YEAR,2629
+6,Strict,I_PXY,2629
+7,Strict,I_CITY_YEAR,2629
+8,Strict,I_CITY_PXY,2629
+9,Plus_discipline,I_YEAR,2451
+10,Plus_discipline,I_PXY,2451
+11,Plus_discipline,I_CITY_YEAR,2451
+12,Plus_discipline,I_CITY_PXY,2451
+13,Plus_recent,I_YEAR,2178
+14,Plus_recent,I_PXY,2178
+15,Plus_recent,I_CITY_YEAR,2178
+16,Plus_recent,I_CITY_PXY,2178

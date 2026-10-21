@@ -1,0 +1,8 @@
+﻿model_id,fe,absorb,label,kind
+1,PXY,py,Province x year,level
+2,CITY_YEAR,city_code year,City + year,level
+3,CITY_PXY,city_code py,City + province x year,level
+4,I_YEAR,person_id year,Individual + year,change
+5,I_PXY,person_id py,Individual + province x year,change
+6,I_CITY_YEAR,person_id city_code year,Individual + city + year,change
+7,I_CITY_PXY,person_id city_code py,Individual + city + province x year,change

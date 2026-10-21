@@ -1,0 +1,84 @@
+{
+  "source_zip": "C:\\Users\\siyang zhu\\Downloads\\rerequestforaccesstothecped.zip",
+  "sha256": "1427471e045e5e4f26b1ce39bb6f8ea024476d099b8478aaf984893c1cf24526",
+  "only_input_files": [
+    "基本码表-20200606.xlsx",
+    "全部经历-20200606.xlsx"
+  ],
+  "people": 4603,
+  "experience_rows": 73487,
+  "roles_source_rows": 16471,
+  "valid_role_rows": 15948,
+  "role_exclusions": {
+    "missing_endpoint": 473,
+    "missing_city_key": 26,
+    "end_not_after_start": 20,
+    "provincial_flag_with_city_location_requires_review": 2,
+    "province_not_in_local_provincial_roster": 2
+  },
+  "source_provinces": 31,
+  "city_leader_people_ever": 3868,
+  "province_leader_people_ever": 1608,
+  "dyad_role_spells": 317716,
+  "merged_dyad_spells": 155189,
+  "unique_city_province_pairs": 118950,
+  "evidence_rows": 103105,
+  "evidence_by_type": {
+    "hometown_province": 33739,
+    "cowork_any": 25802,
+    "cowork_6m": 20436,
+    "cowork_12m": 16086,
+    "hometown_prefecture": 3307,
+    "alumni_ordinary": 1631,
+    "classmate_any": 595,
+    "classmate_6m": 566,
+    "hometown_county": 379,
+    "training_same_program_overlap": 369,
+    "classmate_same_entry_year": 195
+  },
+  "annual_dyad_rows": 412621,
+  "top_prefecture_dyad_rows": 29625,
+  "city_year_rows": 12116,
+  "prefecture_city_year_rows": 9710,
+  "year_range": [
+    1980,
+    2018
+  ],
+  "snapshot": "January 1",
+  "top_prefecture_unique_city_codes": 347,
+  "preexisting_ties_by_type_in_top_annual": {
+    "hometown_prefecture": 597,
+    "hometown_county": 79,
+    "hometown_province": 5505,
+    "classmate_6m": 62,
+    "classmate_any": 63,
+    "classmate_same_entry_year": 20,
+    "alumni_ordinary": 283,
+    "cowork_6m": 1592,
+    "cowork_any": 2019,
+    "cowork_12m": 1288,
+    "training_same_program_overlap": 12
+  },
+  "top_annual_connected": {
+    "NA": 16889,
+    "0.0": 10529,
+    "1.0": 2207
+  },
+  "top_annual_known_zero_is_only_no_documented_match": true,
+  "strict_ordinary_student_rows": 3050,
+  "dates_invalid": 3817,
+  "education_class_counts": {
+    "party_training_student": 3481,
+    "employment_or_ambiguous": 3309,
+    "ordinary_student_proxy": 3050,
+    "other_student_or_training": 1719,
+    "ordinary_school_concurrent_work_uncertain": 1660
+  },
+  "source_date_end_max": "2019-02-01 00:00:00",
+  "source_date_start_max": "2018-11-01 00:00:00",
+  "top_actual_year_range": [
+    1981,
+    2018
+  ],
+  "top_unique_officeholder_rows": 28652
+}

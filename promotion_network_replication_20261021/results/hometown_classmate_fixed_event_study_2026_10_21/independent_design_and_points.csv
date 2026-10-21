@@ -1,0 +1,65 @@
+﻿method,fe,k,estimable,python_b,estimability_error,reason,model_id,relation
+TWFE_fixed,I_YEAR,-4,True,-2.9732929111583783,1.4517991494424692e-15,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,-3,True,-7.507244505767559,2.23458187721297e-15,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,-2,True,-16.731382115570874,3.155291704151243e-15,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,0,True,-11.408657731959945,1.5739851665914104e-15,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,1,True,-24.82956449004123,1.8290525511636506e-15,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,2,True,-37.265208643905744,6.619638184182959e-16,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,3,True,5.61167111830456,1.2535356018043835e-15,,1,hometown_prefecture
+TWFE_fixed,I_YEAR,4,False,,0.0,No baseline-connected observations at this event time,1,hometown_prefecture
+Sun_Abraham,I_YEAR,-4,True,-4.746604454465839,2.4854358348785036e-15,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,-3,True,-7.3515935847882705,1.7234955122761914e-15,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,-2,True,-16.803640181804404,1.999330147976577e-15,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,0,True,-10.712678404660972,9.401095116112229e-16,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,1,True,-25.564023478664314,1.5103277558875376e-15,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,2,True,-38.07006191183068,2.4262049256400543e-15,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,3,True,4.788239211448049,2.056244605159277e-15,,1,hometown_prefecture
+Sun_Abraham,I_YEAR,4,False,,0.0,No baseline-connected observations at this event time,1,hometown_prefecture
+TWFE_fixed,I_PXY,-4,True,6.511488037860239,9.42567526185313e-16,,2,hometown_prefecture
+TWFE_fixed,I_PXY,-3,True,-16.19860339257285,3.2804388374367727e-15,,2,hometown_prefecture
+TWFE_fixed,I_PXY,-2,True,-13.773556343248663,8.276163565821971e-16,,2,hometown_prefecture
+TWFE_fixed,I_PXY,0,True,-8.943286795805038,7.464671789122536e-16,,2,hometown_prefecture
+TWFE_fixed,I_PXY,1,True,-34.073505787937364,1.1345880321793723e-15,,2,hometown_prefecture
+TWFE_fixed,I_PXY,2,True,-24.004143539751905,2.7032962488149655e-15,,2,hometown_prefecture
+TWFE_fixed,I_PXY,3,True,15.378858847879714,1.3369572262998941e-15,,2,hometown_prefecture
+TWFE_fixed,I_PXY,4,False,,0.0,No baseline-connected observations at this event time,2,hometown_prefecture
+Sun_Abraham,I_PXY,-4,True,2.595059973222842,1.9866620044440797e-15,,2,hometown_prefecture
+Sun_Abraham,I_PXY,-3,True,-20.546922482360195,9.88310088237446e-16,,2,hometown_prefecture
+Sun_Abraham,I_PXY,-2,True,-15.731465457416595,2.718047352470948e-15,,2,hometown_prefecture
+Sun_Abraham,I_PXY,0,True,-7.26604749099456,9.556517124721589e-16,,2,hometown_prefecture
+Sun_Abraham,I_PXY,1,True,-35.892202440031376,1.0831450939757114e-15,,2,hometown_prefecture
+Sun_Abraham,I_PXY,2,True,-25.77850447027123,1.8793549338870194e-15,,2,hometown_prefecture
+Sun_Abraham,I_PXY,3,True,13.699629876715559,7.407193395429546e-16,,2,hometown_prefecture
+Sun_Abraham,I_PXY,4,False,,0.0,No baseline-connected observations at this event time,2,hometown_prefecture
+TWFE_fixed,I_YEAR,-4,True,-43.72993210348653,2.3842104706940797e-15,,3,classmate_6m
+TWFE_fixed,I_YEAR,-3,True,-58.65194543653362,3.2088716863707114e-15,,3,classmate_6m
+TWFE_fixed,I_YEAR,-2,True,-31.53724515433915,8.480783992373569e-16,,3,classmate_6m
+TWFE_fixed,I_YEAR,0,True,-12.854383090814617,5.184708252790687e-16,,3,classmate_6m
+TWFE_fixed,I_YEAR,1,True,-19.078849157042953,1.1907135551963549e-15,,3,classmate_6m
+TWFE_fixed,I_YEAR,2,False,,0.0,No baseline-connected observations at this event time,3,classmate_6m
+TWFE_fixed,I_YEAR,3,False,,0.0,No baseline-connected observations at this event time,3,classmate_6m
+TWFE_fixed,I_YEAR,4,False,,0.0,No baseline-connected observations at this event time,3,classmate_6m
+Sun_Abraham,I_YEAR,-4,True,-47.51533009277185,1.1353844125976542e-15,,3,classmate_6m
+Sun_Abraham,I_YEAR,-3,True,-62.651352564534086,1.3501134968708686e-15,,3,classmate_6m
+Sun_Abraham,I_YEAR,-2,True,-32.42607369440758,2.88316890741651e-16,,3,classmate_6m
+Sun_Abraham,I_YEAR,0,True,-7.878182976666325,1.0928670832946128e-15,,3,classmate_6m
+Sun_Abraham,I_YEAR,1,True,-19.205980244261273,7.159219489611553e-16,,3,classmate_6m
+Sun_Abraham,I_YEAR,2,False,,0.0,No baseline-connected observations at this event time,3,classmate_6m
+Sun_Abraham,I_YEAR,3,False,,0.0,No baseline-connected observations at this event time,3,classmate_6m
+Sun_Abraham,I_YEAR,4,False,,0.0,No baseline-connected observations at this event time,3,classmate_6m
+TWFE_fixed,I_PXY,-4,True,-35.89238407970742,1.0402156814789288e-15,,4,classmate_6m
+TWFE_fixed,I_PXY,-3,True,-65.29186210342127,9.515687511419204e-16,,4,classmate_6m
+TWFE_fixed,I_PXY,-2,True,-38.766492424110474,9.581579802433097e-16,,4,classmate_6m
+TWFE_fixed,I_PXY,0,True,-1.9179523037172803,7.317051988171236e-16,,4,classmate_6m
+TWFE_fixed,I_PXY,1,True,3.3290585321663393,7.634796735699337e-16,,4,classmate_6m
+TWFE_fixed,I_PXY,2,False,,0.0,No baseline-connected observations at this event time,4,classmate_6m
+TWFE_fixed,I_PXY,3,False,,0.0,No baseline-connected observations at this event time,4,classmate_6m
+TWFE_fixed,I_PXY,4,False,,0.0,No baseline-connected observations at this event time,4,classmate_6m
+Sun_Abraham,I_PXY,-4,True,-38.641706418368244,1.201755759293267e-15,,4,classmate_6m
+Sun_Abraham,I_PXY,-3,True,-68.21157070732977,2.2311181520439727e-15,,4,classmate_6m
+Sun_Abraham,I_PXY,-2,True,-39.8415909151456,1.1295938548658577e-15,,4,classmate_6m
+Sun_Abraham,I_PXY,0,True,2.6359654097384535,9.80025458627484e-16,,4,classmate_6m
+Sun_Abraham,I_PXY,1,True,4.95281281459286,9.610635648717811e-16,,4,classmate_6m
+Sun_Abraham,I_PXY,2,False,,0.0,No baseline-connected observations at this event time,4,classmate_6m
+Sun_Abraham,I_PXY,3,False,,0.0,No baseline-connected observations at this event time,4,classmate_6m
+Sun_Abraham,I_PXY,4,False,,0.0,No baseline-connected observations at this event time,4,classmate_6m

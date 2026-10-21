@@ -1,0 +1,5 @@
+﻿model_id,relation,fe,absorb,N
+1,hometown_prefecture,I_YEAR,person_id year,2731
+2,hometown_prefecture,I_PXY,person_id py,2731
+3,classmate_6m,I_YEAR,person_id year,1155
+4,classmate_6m,I_PXY,person_id py,1155

@@ -1,0 +1,61 @@
+{
+  "source_zip": "C:\\Users\\siyang zhu\\Downloads\\rerequestforaccesstothecped.zip",
+  "source_zip_sha256": "1427471e045e5e4f26b1ce39bb6f8ea024476d099b8478aaf984893c1cf24526",
+  "network_timing": "formation date strictly before cutoff; no post-cutoff ties added",
+  "no_outcome_data_used": true,
+  "annual_year_range": [
+    2000,
+    2018
+  ],
+  "annual_assignment": "January 1, unique officeholder, does not require province leadership data",
+  "ambiguous_office_years": 179,
+  "multicity_official_years_excluded": 6,
+  "summary": [
+    {
+      "cutoff_label": "pre2012",
+      "cutoff_exclusive": "2012-01-01",
+      "all_people": 4603,
+      "city_principal_people_2000_2018": 2771,
+      "all_person_positive_edges": 71048,
+      "city_principal_positive_edges": 25233,
+      "positive_edges_by_relation": {
+        "cowork_6m": 24056,
+        "classmate_6m": 5569,
+        "hometown_prefecture": 42734
+      },
+      "city_principal_edges_by_relation": {
+        "cowork_6m": 8540,
+        "classmate_6m": 2375,
+        "hometown_prefecture": 15076
+      },
+      "evidence_rows": 82619,
+      "same_province_city_pair_years": 146823,
+      "national_positive_office_pair_years": 27982,
+      "within_city_pair_years": 5683,
+      "school_rows_reincluded_after_precut_employment_check": 19
+    },
+    {
+      "cutoff_label": "pre2012Nov15",
+      "cutoff_exclusive": "2012-11-15",
+      "all_people": 4603,
+      "city_principal_people_2000_2018": 2771,
+      "all_person_positive_edges": 72635,
+      "city_principal_positive_edges": 26108,
+      "positive_edges_by_relation": {
+        "cowork_6m": 25709,
+        "classmate_6m": 5569,
+        "hometown_prefecture": 42734
+      },
+      "city_principal_edges_by_relation": {
+        "cowork_6m": 9465,
+        "classmate_6m": 2375,
+        "hometown_prefecture": 15076
+      },
+      "evidence_rows": 84912,
+      "same_province_city_pair_years": 146823,
+      "national_positive_office_pair_years": 29403,
+      "within_city_pair_years": 5683,
+      "school_rows_reincluded_after_precut_employment_check": 8
+    }
+  ]
+}

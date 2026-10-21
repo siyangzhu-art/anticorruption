@@ -1,0 +1,19 @@
+model_id,fe,control_id,control_label,personal,economic_controls
+1,cohort,C00,FE only,False,
+2,cohort,C01,Personal,True,
+3,cohort,C02,Personal + growth,True,base_growth
+4,cohort,C03,Personal + log GDPpc,True,base_lngdppc
+5,cohort,C04,Personal + log population,True,base_lnpop
+6,cohort,C05,Personal + growth + log GDPpc,True,base_growth base_lngdppc
+7,cohort,C06,Personal + growth + log population,True,base_growth base_lnpop
+8,cohort,C07,Personal + log GDPpc + log population,True,base_lngdppc base_lnpop
+9,cohort,C08,Personal + all economics,True,base_growth base_lngdppc base_lnpop
+10,province,C00,FE only,False,
+11,province,C01,Personal,True,
+12,province,C02,Personal + growth,True,base_growth
+13,province,C03,Personal + log GDPpc,True,base_lngdppc
+14,province,C04,Personal + log population,True,base_lnpop
+15,province,C05,Personal + growth + log GDPpc,True,base_growth base_lngdppc
+16,province,C06,Personal + growth + log population,True,base_growth base_lnpop
+17,province,C07,Personal + log GDPpc + log population,True,base_lngdppc base_lnpop
+18,province,C08,Personal + all economics,True,base_growth base_lngdppc base_lnpop

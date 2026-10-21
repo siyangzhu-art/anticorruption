@@ -1,0 +1,50 @@
+{
+  "status": "PASS_internal_consistency_not_external_biography_verification",
+  "checks": [
+    {
+      "test": "all annual hometown_prefecture indicators",
+      "pass": true,
+      "rows": 412621
+    },
+    {
+      "test": "all annual classmate_6m indicators",
+      "pass": true,
+      "rows": 412621
+    },
+    {
+      "test": "all annual cowork_6m indicators",
+      "pass": true,
+      "rows": 412621
+    },
+    {
+      "test": "evidence identities, keys, school eligibility and interval overlap",
+      "pass": true,
+      "rows": 103105
+    },
+    {
+      "test": "no self-pairs or duplicate dyad-years",
+      "pass": true,
+      "rows": 412621
+    },
+    {
+      "test": "unknowns propagated to connected",
+      "pass": true,
+      "rows": 260751
+    },
+    {
+      "test": "input ZIP hash unchanged; source only two supplied XLSX",
+      "pass": true,
+      "rows": 2
+    }
+  ],
+  "global_positive_relation_type_rows": 331234,
+  "multiple_incumbent_office_year_groups": 361,
+  "source_hash": "1427471e045e5e4f26b1ce39bb6f8ea024476d099b8478aaf984893c1cf24526",
+  "limitations": [
+    "source biography completeness unknown",
+    "exact acquaintance not observed",
+    "end dates not extrapolated",
+    "Jan 1 snapshot is not a full-year officeholder assignment",
+    "same-province contemporaneous roster only"
+  ]
+}

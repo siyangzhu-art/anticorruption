@@ -1,0 +1,7 @@
+﻿sample,stage,N,people,cities,G,city_year_cells,single_city_year_cells,two_city_year_cells,more_than_two_cells,discordant_city_year_cells,rows_in_discordant_cells,promotion_events,connected_observations
+fixed,input,2808,547,280,26,1884,960,924,0,167,334,430,303
+fixed,PXY_max,2808,547,280,26,1884,960,924,0,167,334,430,303
+fixed,CXY_max_common,1802,500,249,26,901,0,901,0,163,326,243,197
+dynamic,input,4364,1264,284,27,2331,298,2033,0,371,742,672,468
+dynamic,PXY_max,4113,1015,284,27,2291,469,1822,0,340,680,637,451
+dynamic,CXY_max_common,3532,925,275,27,1766,0,1766,0,326,652,499,388

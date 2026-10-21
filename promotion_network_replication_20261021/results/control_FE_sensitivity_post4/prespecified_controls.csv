@@ -1,0 +1,10 @@
+﻿control_id,label,personal,econ
+C00,FE only,False,
+C01,Personal,True,
+C02,Personal + growth,True,gdp_growth_lag
+C03,Personal + log GDPpc,True,lngdppc_lag
+C04,Personal + log population,True,lnpop_lag
+C05,Personal + growth + log GDPpc,True,gdp_growth_lag lngdppc_lag
+C06,Personal + growth + log population,True,gdp_growth_lag lnpop_lag
+C07,Personal + log GDPpc + log population,True,lngdppc_lag lnpop_lag
+C08,Personal + all economics,True,gdp_growth_lag lngdppc_lag lnpop_lag

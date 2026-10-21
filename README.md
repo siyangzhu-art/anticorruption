@@ -121,3 +121,13 @@ lme, haven
 ## License
 
 This project is for academic research purposes. All code is shared for transparency and replicability. Please cite appropriately if using in derivative work.
+
+
+## Official networks and promotion replication (2026-10-21)
+
+- [Replication package and run instructions](promotion_network_replication_20261021/README.md)
+- [HTML summary (download/clone and open locally)](promotion_network_replication_20261021/results/organized_main_results_corruption_checks_2026_10_21/index.html)
+- [City-official network reconstruction](promotion_network_replication_20261021/code/network/README.md)
+- [Known outcome-label and identification limitations](promotion_network_replication_20261021/KNOWN_ISSUES.md)
+
+The public package contains code and aggregate results. CPED raw data, individual panels and relationship evidence remain in the local authorized-data bundle. Existing repository files are retained.

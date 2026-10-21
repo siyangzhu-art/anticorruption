@@ -1,0 +1,5 @@
+﻿model_id,method,test,F,df_num,p,relation,fe,absorb,N
+1,TWFE_fixed,pretrend,3.8169805387255877,3.0,0.030817466,hometown_or_classmate,I_YEAR,person_id year,1151
+1,Sun_Abraham,pretrend,7.131800156559149,3.0,0.002949855,hometown_or_classmate,I_YEAR,person_id year,1151
+2,TWFE_fixed,pretrend,4.582048659629582,3.0,0.016877599,hometown_or_classmate,I_PXY,person_id py,1151
+2,Sun_Abraham,pretrend,9.359391905009105,3.0,0.00082789134,hometown_or_classmate,I_PXY,person_id py,1151

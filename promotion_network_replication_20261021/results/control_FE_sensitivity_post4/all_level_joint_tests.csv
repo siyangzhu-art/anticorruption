@@ -1,0 +1,217 @@
+﻿model_id,estimator,test,F,df_num,p,sample,fe,control_id,control_label,absorb,controls
+1,Sun_Abraham,pretrend,0.4834401083730779,3.0,0.696788524406146,fixed,I_YEAR,C00,FE only,person_id year,
+1,Sun_Abraham,post_joint,1.5272168032983247,4.0,0.22469815846888572,fixed,I_YEAR,C00,FE only,person_id year,
+1,TWFE_fixed,pretrend,0.4903608615371162,3.0,0.6921337703032734,fixed,I_YEAR,C00,FE only,person_id year,
+1,TWFE_fixed,post_joint,1.5864730896108907,4.0,0.20885247606556995,fixed,I_YEAR,C00,FE only,person_id year,
+2,Sun_Abraham,pretrend,0.6058280672345767,3.0,0.6173824142577897,fixed,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+2,Sun_Abraham,post_joint,3.069784773847972,4.0,0.03467106564167318,fixed,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+2,TWFE_fixed,pretrend,0.6508399962898606,3.0,0.5898587051768034,fixed,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+2,TWFE_fixed,post_joint,2.7796289442217526,4.0,0.048773348593378646,fixed,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+3,Sun_Abraham,pretrend,0.6041869104088397,3.0,0.6184037763490515,fixed,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+3,Sun_Abraham,post_joint,3.089262737125275,4.0,0.0338933523677719,fixed,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+3,TWFE_fixed,pretrend,0.6520387478741516,3.0,0.5891387376463844,fixed,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+3,TWFE_fixed,post_joint,2.813717621930898,4.0,0.04684164543868301,fixed,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+4,Sun_Abraham,pretrend,0.5437986964583519,3.0,0.6568304040396389,fixed,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+4,Sun_Abraham,post_joint,2.931682560036879,4.0,0.04075470187833652,fixed,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+4,TWFE_fixed,pretrend,0.5899722267530828,3.0,0.6273018351799868,fixed,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+4,TWFE_fixed,post_joint,2.6201166190238996,4.0,0.05898923570184139,fixed,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+5,Sun_Abraham,pretrend,0.5976035796257638,3.0,0.6225133025739309,fixed,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+5,Sun_Abraham,post_joint,3.0095406067481973,4.0,0.03719796987108778,fixed,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+5,TWFE_fixed,pretrend,0.638005121742883,3.0,0.5976099724267376,fixed,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+5,TWFE_fixed,post_joint,2.72563331944598,4.0,0.05200614260245849,fixed,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+6,Sun_Abraham,pretrend,0.5428119910563157,3.0,0.6574715780885945,fixed,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+6,Sun_Abraham,post_joint,2.9513545823476277,4.0,0.03982346467367255,fixed,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+6,TWFE_fixed,pretrend,0.591079328338154,3.0,0.6266055052397268,fixed,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+6,TWFE_fixed,post_joint,2.6558290560874203,4.0,0.056521881499232915,fixed,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+7,Sun_Abraham,pretrend,0.5957476555918337,3.0,0.6236754168408196,fixed,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+7,Sun_Abraham,post_joint,3.0340120909919563,4.0,0.036148859916905376,fixed,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+7,TWFE_fixed,pretrend,0.6390408963061299,3.0,0.5969815564649318,fixed,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+7,TWFE_fixed,post_joint,2.765756433109811,4.0,0.04958324970040752,fixed,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+8,Sun_Abraham,pretrend,0.5434673363180708,3.0,0.6570456798333271,fixed,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+8,Sun_Abraham,post_joint,2.7703065670340763,4.0,0.04931606015540113,fixed,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+8,TWFE_fixed,pretrend,0.5901305063030424,3.0,0.6272022485261589,fixed,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+8,TWFE_fixed,post_joint,2.4711007537714127,4.0,0.07056525640423945,fixed,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+9,Sun_Abraham,pretrend,0.5426164623065608,3.0,0.6575986845389792,fixed,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+9,Sun_Abraham,post_joint,2.792360635922917,4.0,0.04804227092988557,fixed,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+9,TWFE_fixed,pretrend,0.5912203144931302,3.0,0.6265168696245473,fixed,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+9,TWFE_fixed,post_joint,2.509790785928564,4.0,0.06734843587085303,fixed,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+10,Sun_Abraham,pretrend,1.081427448955225,3.0,0.37500824454905524,fixed,I_PXY,C00,FE only,person_id py,
+10,Sun_Abraham,post_joint,1.8883473980529881,4.0,0.1438483592978806,fixed,I_PXY,C00,FE only,person_id py,
+10,TWFE_fixed,pretrend,0.871302112305466,3.0,0.4690723669856586,fixed,I_PXY,C00,FE only,person_id py,
+10,TWFE_fixed,post_joint,1.939924962270671,4.0,0.13498594276922582,fixed,I_PXY,C00,FE only,person_id py,
+11,Sun_Abraham,pretrend,1.055656188623351,3.0,0.38551053262464274,fixed,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+11,Sun_Abraham,post_joint,2.213341531627418,4.0,0.09650599800537943,fixed,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+11,TWFE_fixed,pretrend,1.117846682616941,3.0,0.3606321068189209,fixed,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+11,TWFE_fixed,post_joint,1.9160094170280046,4.0,0.1390240876147065,fixed,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+12,Sun_Abraham,pretrend,1.05834182592939,3.0,0.3844031509815879,fixed,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+12,Sun_Abraham,post_joint,2.1802701685265222,4.0,0.10048686582824805,fixed,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+12,TWFE_fixed,pretrend,1.1269746597053099,3.0,0.35711279411599217,fixed,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+12,TWFE_fixed,post_joint,1.9151785083455342,4.0,0.1391665755043756,fixed,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+13,Sun_Abraham,pretrend,0.958675090294341,3.0,0.4275751358659443,fixed,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+13,Sun_Abraham,post_joint,2.1358489049913345,4.0,0.1061020756677307,fixed,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+13,TWFE_fixed,pretrend,1.0295207545555567,3.0,0.3964462061938479,fixed,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+13,TWFE_fixed,post_joint,1.8290273673100925,4.0,0.15477442384040954,fixed,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+14,Sun_Abraham,pretrend,1.0463796999543062,3.0,0.38935889804295665,fixed,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+14,Sun_Abraham,post_joint,2.2316857635275227,4.0,0.09436843149610191,fixed,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+14,TWFE_fixed,pretrend,1.1142270022511618,3.0,0.3620369105744822,fixed,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+14,TWFE_fixed,post_joint,1.9257047794563262,4.0,0.13737241005733256,fixed,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+15,Sun_Abraham,pretrend,0.961811622124691,3.0,0.4261500990152485,fixed,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+15,Sun_Abraham,post_joint,2.1010984686416427,4.0,0.11071940680381528,fixed,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+15,TWFE_fixed,pretrend,1.0387942921240019,3.0,0.39253275376883745,fixed,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+15,TWFE_fixed,post_joint,1.8286256628967918,4.0,0.15485120824549686,fixed,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+16,Sun_Abraham,pretrend,1.0490016245560272,3.0,0.38826750941460014,fixed,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+16,Sun_Abraham,post_joint,2.1996304386538976,4.0,0.0981363020896567,fixed,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+16,TWFE_fixed,pretrend,1.1233563861019298,3.0,0.3585038508530153,fixed,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+16,TWFE_fixed,post_joint,1.9278135663336977,4.0,0.13701581382737543,fixed,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+17,Sun_Abraham,pretrend,0.9633414706725271,3.0,0.42545663251076626,fixed,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+17,Sun_Abraham,post_joint,2.140080466515998,4.0,0.10555351446006474,fixed,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+17,TWFE_fixed,pretrend,1.0296560107955568,3.0,0.3963888638171232,fixed,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+17,TWFE_fixed,post_joint,1.8261925043776874,4.0,0.15531712164686637,fixed,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+18,Sun_Abraham,pretrend,0.9672131293215198,3.0,0.42370631657526303,fixed,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+18,Sun_Abraham,post_joint,2.1062599315770245,4.0,0.11002074165932542,fixed,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+18,TWFE_fixed,pretrend,1.0395809819536674,3.0,0.39220245520004904,fixed,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+18,TWFE_fixed,post_joint,1.830825679061542,4.0,0.15443115431193197,fixed,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+19,Sun_Abraham,pretrend,0.5891653247911861,3.0,0.6278097001459737,fixed,I_CITY_YEAR,C00,FE only,person_id city_code year,
+19,Sun_Abraham,post_joint,1.0874819571313719,4.0,0.38406541633664604,fixed,I_CITY_YEAR,C00,FE only,person_id city_code year,
+19,TWFE_fixed,pretrend,0.61444763765288,3.0,0.61203850262313,fixed,I_CITY_YEAR,C00,FE only,person_id city_code year,
+19,TWFE_fixed,post_joint,1.1224419116924245,4.0,0.368316201331383,fixed,I_CITY_YEAR,C00,FE only,person_id city_code year,
+20,Sun_Abraham,pretrend,0.6119340986273712,3.0,0.613593281681259,fixed,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+20,Sun_Abraham,post_joint,4.949250895391554,4.0,0.004447928348503308,fixed,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+20,TWFE_fixed,pretrend,0.6917936118712497,3.0,0.5656507719305662,fixed,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+20,TWFE_fixed,post_joint,6.89397470615906,4.0,0.0006961781901321092,fixed,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+21,Sun_Abraham,pretrend,0.6146215105094663,3.0,0.6119310598759073,fixed,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+21,Sun_Abraham,post_joint,5.1358939671396335,4.0,0.003681095052863609,fixed,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+21,TWFE_fixed,pretrend,0.6962966163773587,3.0,0.563038134592664,fixed,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+21,TWFE_fixed,post_joint,6.963628250584053,4.0,0.000654372992585321,fixed,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+22,Sun_Abraham,pretrend,0.6053325789393349,3.0,0.6176906471175858,fixed,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+22,Sun_Abraham,post_joint,4.934097374658297,4.0,0.0045172962582919005,fixed,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+22,TWFE_fixed,pretrend,0.686679528654493,3.0,0.5686297981794073,fixed,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+22,TWFE_fixed,post_joint,6.850077420770222,4.0,0.000723993747571129,fixed,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+23,Sun_Abraham,pretrend,0.6110345552762265,3.0,0.6141504160122546,fixed,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+23,Sun_Abraham,post_joint,4.802207495784804,4.0,0.005172309670116485,fixed,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+23,TWFE_fixed,pretrend,0.6919647542406984,3.0,0.5655512967794152,fixed,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+23,TWFE_fixed,post_joint,6.728770535380168,4.0,0.0008072621485053004,fixed,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+24,Sun_Abraham,pretrend,0.6078814167285381,3.0,0.6161062749577035,fixed,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+24,Sun_Abraham,post_joint,5.119300855353658,4.0,0.0037431617699186836,fixed,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+24,TWFE_fixed,pretrend,0.6909682174631535,3.0,0.5661307239600628,fixed,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+24,TWFE_fixed,post_joint,6.922323362478201,4.0,0.0006788270587650424,fixed,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+25,Sun_Abraham,pretrend,0.6137101913360349,3.0,0.6124943550626951,fixed,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+25,Sun_Abraham,post_joint,4.990352848809068,4.0,0.004265455189042312,fixed,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+25,TWFE_fixed,pretrend,0.6967568444988886,3.0,0.5627716612205154,fixed,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+25,TWFE_fixed,post_joint,6.814234242787793,4.0,0.0007475920708130738,fixed,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+26,Sun_Abraham,pretrend,0.6047140292556206,3.0,0.6180755925630577,fixed,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+26,Sun_Abraham,post_joint,4.779363102318586,4.0,0.0052957460241279215,fixed,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+26,TWFE_fixed,pretrend,0.6871176284615998,3.0,0.5683741059234284,fixed,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+26,TWFE_fixed,post_joint,6.673481189542179,4.0,0.0008485792420163396,fixed,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+27,Sun_Abraham,pretrend,0.6072730238594836,3.0,0.6164841832344743,fixed,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+27,Sun_Abraham,post_joint,4.966214939834792,4.0,0.004371622923337048,fixed,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+27,TWFE_fixed,pretrend,0.691724879952135,3.0,0.5656907257858297,fixed,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+27,TWFE_fixed,post_joint,6.762375504163234,4.0,0.0007832100492783245,fixed,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+28,Sun_Abraham,pretrend,1.4059701369505866,3.0,0.26435957853621767,fixed,I_CITY_PXY,C00,FE only,person_id city_code py,
+28,Sun_Abraham,post_joint,1.7612427288328882,4.0,0.16829081453647113,fixed,I_CITY_PXY,C00,FE only,person_id city_code py,
+28,TWFE_fixed,pretrend,1.2470566339800568,3.0,0.3138069305220699,fixed,I_CITY_PXY,C00,FE only,person_id city_code py,
+28,TWFE_fixed,post_joint,13.616634357159697,4.0,5.04366446117024e-06,fixed,I_CITY_PXY,C00,FE only,person_id city_code py,
+29,Sun_Abraham,pretrend,0.864122423976009,3.0,0.47263950012413336,fixed,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+29,Sun_Abraham,post_joint,1.9122292779656838,4.0,0.139673522599203,fixed,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+29,TWFE_fixed,pretrend,0.995270408822606,3.0,0.4112208176166494,fixed,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+29,TWFE_fixed,post_joint,5.42400968001308,4.0,0.0027622013948076906,fixed,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+30,Sun_Abraham,pretrend,0.863272474701216,3.0,0.4730633898825449,fixed,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+30,Sun_Abraham,post_joint,1.8706287718678871,4.0,0.14702747090375926,fixed,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+30,TWFE_fixed,pretrend,0.9949811151510533,3.0,0.41134778296582664,fixed,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+30,TWFE_fixed,post_joint,5.5274041089656505,4.0,0.0024952733734120904,fixed,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+31,Sun_Abraham,pretrend,0.8464907617986626,3.0,0.48150258692246595,fixed,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+31,Sun_Abraham,post_joint,1.9135980782218178,4.0,0.1394380046324446,fixed,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+31,TWFE_fixed,pretrend,0.9779718572617245,3.0,0.4188775133472499,fixed,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+31,TWFE_fixed,post_joint,5.478341215356568,4.0,0.00261831427810724,fixed,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+32,Sun_Abraham,pretrend,0.8695564537696768,3.0,0.46993744723223163,fixed,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+32,Sun_Abraham,post_joint,1.8899089527973574,4.0,0.14357154830645708,fixed,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+32,TWFE_fixed,pretrend,1.0018852955774786,3.0,0.4083276633092553,fixed,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+32,TWFE_fixed,post_joint,6.012299255222143,4.0,0.0015644819303411665,fixed,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+33,Sun_Abraham,pretrend,0.8458503793326039,3.0,0.4818272594145454,fixed,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+33,Sun_Abraham,post_joint,1.872194354899297,4.0,0.14674372314081735,fixed,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+33,TWFE_fixed,pretrend,0.9778612635698557,3.0,0.41892688930782007,fixed,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+33,TWFE_fixed,post_joint,5.562323120545821,4.0,0.002411486635832002,fixed,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+34,Sun_Abraham,pretrend,0.8687061717925086,3.0,0.4703593316876076,fixed,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+34,Sun_Abraham,post_joint,1.8479897874349782,4.0,0.15119328997113735,fixed,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+34,TWFE_fixed,pretrend,1.0016247272831957,3.0,0.4084412664487176,fixed,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+34,TWFE_fixed,post_joint,6.132552869602563,4.0,0.0013968352125634644,fixed,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+35,Sun_Abraham,pretrend,0.8518018809805469,3.0,0.47881734203699755,fixed,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+35,Sun_Abraham,post_joint,1.8878655663176673,4.0,0.14393388114106753,fixed,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+35,TWFE_fixed,pretrend,0.9846558375230942,3.0,0.4159034107021524,fixed,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+35,TWFE_fixed,post_joint,6.034793763247745,4.0,0.0015315500308455145,fixed,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+36,Sun_Abraham,pretrend,0.8511727850463354,3.0,0.4791347095690399,fixed,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+36,Sun_Abraham,post_joint,1.8458117465547876,4.0,0.15160032414372068,fixed,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+36,TWFE_fixed,pretrend,0.9845959444634036,3.0,0.41592997307696233,fixed,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+36,TWFE_fixed,post_joint,6.135535942533577,4.0,0.0013929299638246388,fixed,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+37,TWFE_dynamic,pretrend,0.5991506745869076,3.0,0.6213193713196784,dynamic,I_YEAR,C00,FE only,person_id year,
+37,TWFE_dynamic,post_joint,3.2827485576725772,4.0,0.02637769614501646,dynamic,I_YEAR,C00,FE only,person_id year,
+38,TWFE_dynamic,pretrend,0.5633280742338039,3.0,0.6440362791392856,dynamic,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+38,TWFE_dynamic,post_joint,4.354918216368756,4.0,0.007910522977268991,dynamic,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+39,TWFE_dynamic,pretrend,0.5616539693596275,3.0,0.6451118853063335,dynamic,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+39,TWFE_dynamic,post_joint,4.3414842754407115,4.0,0.008026426511571785,dynamic,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+40,TWFE_dynamic,pretrend,0.5235474333877224,3.0,0.6699209187691306,dynamic,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+40,TWFE_dynamic,post_joint,4.439892886638347,4.0,0.007217469756580451,dynamic,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+41,TWFE_dynamic,pretrend,0.617320004098638,3.0,0.6100201505307665,dynamic,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+41,TWFE_dynamic,post_joint,4.607839160935645,4.0,0.0060308350810311835,dynamic,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+42,TWFE_dynamic,pretrend,0.5234723322791133,3.0,0.6699704154109557,dynamic,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+42,TWFE_dynamic,post_joint,4.429755731045346,4.0,0.007296640184936886,dynamic,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+43,TWFE_dynamic,pretrend,0.6153644274941266,3.0,0.6112289700902593,dynamic,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+43,TWFE_dynamic,post_joint,4.596377457933971,4.0,0.006104807929987485,dynamic,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+44,TWFE_dynamic,pretrend,0.5565847551401186,3.0,0.6483763074489666,dynamic,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+44,TWFE_dynamic,post_joint,4.508589355984181,4.0,0.006704491032562628,dynamic,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+45,TWFE_dynamic,pretrend,0.5563519139034679,3.0,0.6485265191482906,dynamic,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+45,TWFE_dynamic,post_joint,4.501609935248038,4.0,0.006754790145974791,dynamic,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+46,TWFE_dynamic,pretrend,0.3746469146662892,3.0,0.7719882012929006,dynamic,I_PXY,C00,FE only,person_id py,
+46,TWFE_dynamic,post_joint,3.8501733556870747,4.0,0.013793081140936827,dynamic,I_PXY,C00,FE only,person_id py,
+47,TWFE_dynamic,pretrend,0.8324471892863462,3.0,0.4881932273938454,dynamic,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+47,TWFE_dynamic,post_joint,12.138087524600518,4.0,1.0686491726849027e-05,dynamic,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+48,TWFE_dynamic,pretrend,0.8350675425877868,3.0,0.48684653249030596,dynamic,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+48,TWFE_dynamic,post_joint,13.043860348730373,4.0,5.894575165948503e-06,dynamic,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+49,TWFE_dynamic,pretrend,0.765711763499676,3.0,0.5235998843142843,dynamic,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+49,TWFE_dynamic,post_joint,16.294714914226315,4.0,8.483429973607715e-07,dynamic,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+50,TWFE_dynamic,pretrend,0.875509637086326,3.0,0.46647449889397197,dynamic,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+50,TWFE_dynamic,post_joint,16.814213535521887,4.0,6.379944670543875e-07,dynamic,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+51,TWFE_dynamic,pretrend,0.767986263278531,3.0,0.5223578407523676,dynamic,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+51,TWFE_dynamic,post_joint,17.78398252747416,4.0,3.808417605838837e-07,dynamic,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+52,TWFE_dynamic,pretrend,0.8790318346231998,3.0,0.4647367240096818,dynamic,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+52,TWFE_dynamic,post_joint,18.43518728795668,4.0,2.723168299028838e-07,dynamic,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+53,TWFE_dynamic,pretrend,0.7950321500416969,3.0,0.5077801922624336,dynamic,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+53,TWFE_dynamic,post_joint,17.75033895612472,4.0,3.8758995469329285e-07,dynamic,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+54,TWFE_dynamic,pretrend,0.7992550991546894,3.0,0.5055358470511934,dynamic,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+54,TWFE_dynamic,post_joint,19.422351850556648,4.0,1.663877753947909e-07,dynamic,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+55,TWFE_dynamic,pretrend,0.7448286240758634,3.0,0.5351205477081993,dynamic,I_CITY_YEAR,C00,FE only,person_id city_code year,
+55,TWFE_dynamic,post_joint,8.608242911656676,4.0,0.00014545698973276528,dynamic,I_CITY_YEAR,C00,FE only,person_id city_code year,
+56,TWFE_dynamic,pretrend,0.39209880759386334,3.0,0.7596892843695734,dynamic,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+56,TWFE_dynamic,post_joint,2.805513290522767,4.0,0.04636156171954414,dynamic,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+57,TWFE_dynamic,pretrend,0.3941577122872881,3.0,0.7582426803781934,dynamic,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+57,TWFE_dynamic,post_joint,2.8080680514996295,4.0,0.04621981718355884,dynamic,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+58,TWFE_dynamic,pretrend,0.3875406699131713,3.0,0.762895294068124,dynamic,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+58,TWFE_dynamic,post_joint,2.8128620895718806,4.0,0.04595505573847845,dynamic,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+59,TWFE_dynamic,pretrend,0.39728478062726785,3.0,0.7560474708399627,dynamic,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+59,TWFE_dynamic,post_joint,2.7803608424393014,4.0,0.04778163278227655,dynamic,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+60,TWFE_dynamic,pretrend,0.3893353893177296,3.0,0.7616324065078137,dynamic,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+60,TWFE_dynamic,post_joint,2.8162165748718113,4.0,0.045770741937274664,dynamic,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+61,TWFE_dynamic,pretrend,0.399106640863236,3.0,0.7547695957873697,dynamic,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+61,TWFE_dynamic,post_joint,2.7813128722477694,4.0,0.04772706151607473,dynamic,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+62,TWFE_dynamic,pretrend,0.39346029325573956,3.0,0.7587325832061115,dynamic,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+62,TWFE_dynamic,post_joint,2.7842023348658085,4.0,0.04756183392277618,dynamic,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+63,TWFE_dynamic,pretrend,0.39500886920581135,3.0,0.7576449378301418,dynamic,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+63,TWFE_dynamic,post_joint,2.7856538466214316,4.0,0.04747905848989878,dynamic,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+64,TWFE_dynamic,pretrend,0.42427369824627764,3.0,0.7372047119419656,dynamic,I_CITY_PXY,C00,FE only,person_id city_code py,
+64,TWFE_dynamic,post_joint,954.8926796288611,4.0,8.581357462782308e-28,dynamic,I_CITY_PXY,C00,FE only,person_id city_code py,
+65,TWFE_dynamic,pretrend,0.5217700166271685,3.0,0.6710929751414219,dynamic,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+65,TWFE_dynamic,post_joint,68.94254387144603,4.0,1.8568436704898887e-13,dynamic,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+66,TWFE_dynamic,pretrend,0.5219578564997033,3.0,0.6709690494634063,dynamic,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+66,TWFE_dynamic,post_joint,72.01713754132149,4.0,1.1084751654398185e-13,dynamic,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+67,TWFE_dynamic,pretrend,0.5187678623393743,3.0,0.6730755739164416,dynamic,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+67,TWFE_dynamic,post_joint,76.92360791250786,4.0,5.065579568287981e-14,dynamic,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+68,TWFE_dynamic,pretrend,0.5329708380715318,3.0,0.663728748368386,dynamic,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+68,TWFE_dynamic,post_joint,67.5885170960029,4.0,2.3460380740235706e-13,dynamic,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+69,TWFE_dynamic,pretrend,0.519065747482772,3.0,0.6728786888855407,dynamic,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+69,TWFE_dynamic,post_joint,70.46855490568477,4.0,1.4337134729232725e-13,dynamic,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+70,TWFE_dynamic,pretrend,0.5331680581070573,3.0,0.6635995482548271,dynamic,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+70,TWFE_dynamic,post_joint,68.61944244826753,4.0,1.9626572222273972e-13,dynamic,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+71,TWFE_dynamic,pretrend,0.5308084741133393,3.0,0.6651463919588689,dynamic,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+71,TWFE_dynamic,post_joint,73.81947028314747,4.0,8.268063980131879e-14,dynamic,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+72,TWFE_dynamic,pretrend,0.5311345573585812,3.0,0.6649324872863436,dynamic,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+72,TWFE_dynamic,post_joint,66.93134148427266,4.0,2.632042637948805e-13,dynamic,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag

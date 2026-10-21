@@ -1,0 +1,9 @@
+﻿cutoff,relation,adjacent_city_office_observations,known_status_changes,changes_same_people,changes_different_people,one_to_zero_same_people,positive_to_unknown_same_people
+pre2012,cowork_6m,130654,3900,24,3876,0,0
+pre2012,classmate_6m,130654,599,0,599,0,0
+pre2012,hometown_prefecture,130654,4633,0,4633,0,0
+pre2012,connected,130654,3265,7,3258,0,0
+pre2012Nov15,cowork_6m,130654,4092,29,4063,0,0
+pre2012Nov15,classmate_6m,130654,599,0,599,0,0
+pre2012Nov15,hometown_prefecture,130654,4633,0,4633,0,0
+pre2012Nov15,connected,130654,3341,8,3333,0,0

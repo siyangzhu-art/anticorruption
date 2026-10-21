@@ -1,0 +1,5 @@
+fe,absorb,label
+I_YEAR,person_id year,Individual + year
+I_PXY,person_id py,Individual + province x year
+I_CITY_YEAR,person_id city_code year,Individual + city + year
+I_CITY_PXY,person_id city_code py,Individual + city + province x year

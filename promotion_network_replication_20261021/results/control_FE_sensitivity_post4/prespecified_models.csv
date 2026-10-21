@@ -1,0 +1,73 @@
+model_id,sample,fe,control_id,control_label,absorb,controls
+1,fixed,I_YEAR,C00,FE only,person_id year,
+2,fixed,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+3,fixed,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+4,fixed,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+5,fixed,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+6,fixed,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+7,fixed,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+8,fixed,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+9,fixed,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+10,fixed,I_PXY,C00,FE only,person_id py,
+11,fixed,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+12,fixed,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+13,fixed,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+14,fixed,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+15,fixed,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+16,fixed,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+17,fixed,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+18,fixed,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+19,fixed,I_CITY_YEAR,C00,FE only,person_id city_code year,
+20,fixed,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+21,fixed,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+22,fixed,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+23,fixed,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+24,fixed,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+25,fixed,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+26,fixed,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+27,fixed,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+28,fixed,I_CITY_PXY,C00,FE only,person_id city_code py,
+29,fixed,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+30,fixed,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+31,fixed,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+32,fixed,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+33,fixed,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+34,fixed,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+35,fixed,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+36,fixed,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+37,dynamic,I_YEAR,C00,FE only,person_id year,
+38,dynamic,I_YEAR,C01,Personal,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary 
+39,dynamic,I_YEAR,C02,Personal + growth,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+40,dynamic,I_YEAR,C03,Personal + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+41,dynamic,I_YEAR,C04,Personal + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+42,dynamic,I_YEAR,C05,Personal + growth + log GDPpc,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+43,dynamic,I_YEAR,C06,Personal + growth + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+44,dynamic,I_YEAR,C07,Personal + log GDPpc + log population,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+45,dynamic,I_YEAR,C08,Personal + all economics,person_id year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+46,dynamic,I_PXY,C00,FE only,person_id py,
+47,dynamic,I_PXY,C01,Personal,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary 
+48,dynamic,I_PXY,C02,Personal + growth,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+49,dynamic,I_PXY,C03,Personal + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+50,dynamic,I_PXY,C04,Personal + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+51,dynamic,I_PXY,C05,Personal + growth + log GDPpc,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+52,dynamic,I_PXY,C06,Personal + growth + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+53,dynamic,I_PXY,C07,Personal + log GDPpc + log population,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+54,dynamic,I_PXY,C08,Personal + all economics,person_id py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+55,dynamic,I_CITY_YEAR,C00,FE only,person_id city_code year,
+56,dynamic,I_CITY_YEAR,C01,Personal,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary 
+57,dynamic,I_CITY_YEAR,C02,Personal + growth,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+58,dynamic,I_CITY_YEAR,C03,Personal + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+59,dynamic,I_CITY_YEAR,C04,Personal + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+60,dynamic,I_CITY_YEAR,C05,Personal + growth + log GDPpc,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+61,dynamic,I_CITY_YEAR,C06,Personal + growth + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+62,dynamic,I_CITY_YEAR,C07,Personal + log GDPpc + log population,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+63,dynamic,I_CITY_YEAR,C08,Personal + all economics,person_id city_code year,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag
+64,dynamic,I_CITY_PXY,C00,FE only,person_id city_code py,
+65,dynamic,I_CITY_PXY,C01,Personal,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary 
+66,dynamic,I_CITY_PXY,C02,Personal + growth,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag
+67,dynamic,I_CITY_PXY,C03,Personal + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag
+68,dynamic,I_CITY_PXY,C04,Personal + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lnpop_lag
+69,dynamic,I_CITY_PXY,C05,Personal + growth + log GDPpc,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag
+70,dynamic,I_CITY_PXY,C06,Personal + growth + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lnpop_lag
+71,dynamic,I_CITY_PXY,C07,Personal + log GDPpc + log population,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary lngdppc_lag lnpop_lag
+72,dynamic,I_CITY_PXY,C08,Personal + all economics,person_id city_code py,age2 tenure tenure2 i.base_rank i.role_secretary gdp_growth_lag lngdppc_lag lnpop_lag

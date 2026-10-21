@@ -1,0 +1,7 @@
+{
+  "all_cowork_edges": 24056,
+  "all_cowork_supported_only_by_broad_collective": 11903,
+  "city_principal_cowork_edges": 8540,
+  "city_principal_cowork_only_broad_collective": 3732,
+  "warning": "Broad collective means same committee/body with no recorded lower subunit. Provincial standing leadership can be real coworkers; flag does not establish false ties. Do not automatically discard."
+}

@@ -1,0 +1,24 @@
+﻿check,passed
+32 annual models completed,True
+108 cumulative models completed,True
+No annual estimation failures,True
+No cumulative estimation failures,True
+All cumulative point estimates independently reproduced in first differences,True
+12 wild tests succeeded,True
+Annual same sample across four FEs per exclusion rule,True
+Cumulative same original outcome-complete common cohort after province exclusions,True
+Original annual b reproduced,True
+Original annual se reproduced,True
+Original annual p reproduced,True
+Original annual lo reproduced,True
+Original annual hi reproduced,True
+Original cumulative b reproduced,True
+Original cumulative se reproduced,True
+Original cumulative p reproduced,True
+Original cumulative lo reproduced,True
+Original cumulative hi reproduced,True
+All 128 Sun-Abraham cohort-weighted points verified,True
+Annual all coefficients identified,True
+Annual 95 percent province-clustered t intervals verified,True
+Cumulative all coefficients identified,True
+Cumulative 95 percent province-clustered t intervals verified,True

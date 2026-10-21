@@ -1,0 +1,211 @@
+{
+  "estimation_jobs": [
+    {
+      "job": "main",
+      "contrasts": 78,
+      "passed": true,
+      "checks": [
+        {
+          "column": "b",
+          "max_abs_difference": 7.105427357601002e-15
+        },
+        {
+          "column": "se",
+          "max_abs_difference": 3.552713678800501e-15
+        },
+        {
+          "column": "p",
+          "max_abs_difference": 1.1102230246251565e-16
+        },
+        {
+          "column": "lo",
+          "max_abs_difference": 7.105427357601002e-15
+        },
+        {
+          "column": "hi",
+          "max_abs_difference": 3.552713678800501e-15
+        },
+        {
+          "column": "N",
+          "max_abs_difference": 0.0
+        },
+        {
+          "column": "G",
+          "max_abs_difference": 0.0
+        }
+      ]
+    },
+    {
+      "job": "corruption",
+      "contrasts": 11,
+      "passed": true,
+      "checks": [
+        {
+          "column": "b",
+          "max_abs_difference": 3.552713678800501e-15
+        },
+        {
+          "column": "se",
+          "max_abs_difference": 0.0
+        },
+        {
+          "column": "p",
+          "max_abs_difference": 8.153200337090993e-17
+        },
+        {
+          "column": "lo",
+          "max_abs_difference": 7.105427357601002e-15
+        },
+        {
+          "column": "hi",
+          "max_abs_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "N",
+          "max_abs_difference": 0.0
+        },
+        {
+          "column": "G",
+          "max_abs_difference": 0.0
+        }
+      ]
+    },
+    {
+      "job": "cumulative",
+      "contrasts": 18,
+      "passed": true,
+      "checks": [
+        {
+          "column": "b",
+          "max_abs_difference": 3.552713678800501e-15
+        },
+        {
+          "column": "se",
+          "max_abs_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "p",
+          "max_abs_difference": 9.71445146547012e-17
+        },
+        {
+          "column": "lo",
+          "max_abs_difference": 7.105427357601002e-15
+        },
+        {
+          "column": "hi",
+          "max_abs_difference": 1.7763568394002505e-15
+        },
+        {
+          "column": "N",
+          "max_abs_difference": 0.0
+        },
+        {
+          "column": "G",
+          "max_abs_difference": 0.0
+        }
+      ]
+    },
+    {
+      "job": "hometown_school",
+      "contrasts": 48,
+      "passed": true,
+      "checks": [
+        {
+          "column": "b",
+          "max_abs_difference": 7.105427357601002e-15
+        },
+        {
+          "column": "se",
+          "max_abs_difference": 4.802246102997287e-07
+        },
+        {
+          "column": "p",
+          "max_abs_difference": 2.7178192141263935e-08
+        },
+        {
+          "column": "lo",
+          "max_abs_difference": 3.7060546844713826e-06
+        },
+        {
+          "column": "hi",
+          "max_abs_difference": 6.512451165008315e-07
+        }
+      ]
+    },
+    {
+      "job": "union_ties",
+      "contrasts": 28,
+      "passed": true,
+      "checks": [
+        {
+          "column": "b",
+          "max_abs_difference": 3.552713678800501e-15
+        },
+        {
+          "column": "se",
+          "max_abs_difference": 4.732666010198727e-07
+        },
+        {
+          "column": "p",
+          "max_abs_difference": 4.279823301311936e-09
+        },
+        {
+          "column": "lo",
+          "max_abs_difference": 2.3291015622817213e-06
+        },
+        {
+          "column": "hi",
+          "max_abs_difference": 4.472656254250751e-07
+        }
+      ]
+    }
+  ],
+  "total_coefficient_contrasts": 183,
+  "wild_bootstrap": {
+    "tests": 12,
+    "passed": true,
+    "maximum_absolute_p_difference": 5.551115123125783e-17
+  },
+  "network_content_comparisons": [
+    {
+      "file": "person_edges_pre2012.csv.gz",
+      "rows": 71048,
+      "columns": 18,
+      "content_match": true
+    },
+    {
+      "file": "person_edges_pre2012Nov15.csv.gz",
+      "rows": 72635,
+      "columns": 18,
+      "content_match": true
+    },
+    {
+      "file": "person_nodes_pre2012.csv",
+      "rows": 4603,
+      "columns": 24,
+      "content_match": true
+    },
+    {
+      "file": "person_nodes_pre2012Nov15.csv",
+      "rows": 4603,
+      "columns": 24,
+      "content_match": true
+    },
+    {
+      "file": "city_officeholder_year_start.csv",
+      "rows": 12026,
+      "columns": 13,
+      "content_match": true
+    },
+    {
+      "file": "city_pairs_same_province_pre2012.csv.gz",
+      "rows": 146823,
+      "columns": 29,
+      "content_match": true
+    }
+  ],
+  "network_source_and_temporal_checks": 106,
+  "network_all_checks_passed": true,
+  "original_inputs_or_estimates_overwritten": false,
+  "public_contains_raw_CPED_or_individual_panels": false
+}
